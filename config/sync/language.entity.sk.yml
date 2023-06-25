@@ -1,0 +1,16 @@
+uuid: de55af82-fa9c-4628-b835-5ae9541e95b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: U3pJ9bXdtlx-5n4Kvou-Piyl4qlCgniw2KpGM2rh67g
+id: sk
+label: Slovak
+direction: ltr
+weight: 20
+locked: false

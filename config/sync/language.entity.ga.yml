@@ -1,0 +1,16 @@
+uuid: c8c573c4-51f9-461e-9ca0-1ec738eafb78
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: pgTN1zjh2reqZV8s3Z67JcVZCr5KlbgcSF-3zxc_gt8
+id: ga
+label: Irish
+direction: ltr
+weight: 9
+locked: false

@@ -1,0 +1,16 @@
+uuid: 3597f979-b5df-4547-b7cf-d5d785088ff6
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: '-QrKqaHHE4hCCnvwoFs6d8toaTfV08up1HClBbU0qqc'
+id: da
+label: Danish
+direction: ltr
+weight: 3
+locked: false

@@ -1,0 +1,16 @@
+uuid: 8f9cdc34-e2ed-4369-9dd1-147e0f2876df
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: sihZbdJgqwoz5K40OORGh4W44WBCrfYg_gIjpFE8yRw
+id: nl
+label: Dutch
+direction: ltr
+weight: 16
+locked: false

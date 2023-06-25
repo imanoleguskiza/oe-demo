@@ -1,0 +1,22 @@
+uuid: 0b4f1121-2681-4c62-9378-5faa28793526
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - olivero
+_core:
+  default_config_hash: '-Ir48ITnbazjsjI7AWlnPVxo_FVc_x8N0kt29vQOaCM'
+id: oe_multilingual_language_switcher
+theme: olivero
+region: sidebar
+weight: 1
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

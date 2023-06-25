@@ -1,0 +1,16 @@
+uuid: dd9e6057-1dff-4e1c-b3e4-38db254c7b2a
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: yBkDsOKsORUhyzIETOudzHTeZbdAsd60QBaISltaqto
+id: lt
+label: Lithuanian
+direction: ltr
+weight: 13
+locked: false

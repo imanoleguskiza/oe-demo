@@ -1,0 +1,14 @@
+diff --git a/core/includes/install.core.inc b/core/includes/install.core.inc
+index 0cf78ba206..ff719adb9e 100644
+--- a/core/includes/install.core.inc
++++ b/core/includes/install.core.inc
+@@ -764,7 +764,8 @@ function install_tasks($install_state) {
+   // available and selected. Also we will need translations even if the
+   // installer language is English but there are other languages on the system.
+   $locale_module_installed = \Drupal::moduleHandler()->moduleExists('locale');
+-  $needs_translations = $locale_module_installed && ((count($install_state['translations']) > 1 && !empty($install_state['parameters']['langcode']) && $install_state['parameters']['langcode'] != 'en') || \Drupal::languageManager()->isMultilingual());
++  //$needs_translations = $locale_module_installed && ((count($install_state['translations']) > 1 && !empty($install_state['parameters']['langcode']) && $install_state['parameters']['langcode'] != 'en') || \Drupal::languageManager()->isMultilingual());
++  $needs_translations = FALSE;
+   // Determine whether a translation file must be downloaded during the
+   // 'install_download_translation' task. Download when a non-English language
+   // is selected, but no translation is yet in the translations directory.

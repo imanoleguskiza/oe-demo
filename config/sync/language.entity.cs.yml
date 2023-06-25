@@ -1,0 +1,16 @@
+uuid: 0b2998ad-95aa-4770-a91a-13f2aa20a8f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: EPCbxi0KLRI_Gro-W6P5sFEhrFcNiAVKxZ9R_I1Bkro
+id: cs
+label: Czech
+direction: ltr
+weight: 2
+locked: false

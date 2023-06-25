@@ -1,0 +1,16 @@
+uuid: cae66e32-187a-446a-be19-58f82e60a835
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: FClPoiboJRByEKwUg7m7W8pRAjEDzpVWxlkO0VacC80
+id: fr
+label: French
+direction: ltr
+weight: 8
+locked: false

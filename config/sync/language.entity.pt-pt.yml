@@ -1,0 +1,16 @@
+uuid: 9bc57f99-c5ce-45ed-8eb4-be4927087d04
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: _ieMpnbT-OgXn1JqTpwDvSjol1DfNqF7bUn_2YScieI
+id: pt-pt
+label: Portuguese
+direction: ltr
+weight: 18
+locked: false

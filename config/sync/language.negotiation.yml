@@ -1,0 +1,57 @@
+_core:
+  default_config_hash: uEePITI9tV6WqzmsTb7MfPCi5yPWXSxAN1xeLcYFQbM
+session:
+  parameter: language
+url:
+  source: path_prefix
+  prefixes:
+    en: en
+    pt-pt: pt
+    sv: sv
+    sl: sl
+    sk: sk
+    ro: ro
+    pl: pl
+    nl: nl
+    mt: mt
+    lv: lv
+    lt: lt
+    it: it
+    hu: hu
+    hr: hr
+    ga: ga
+    fr: fr
+    fi: fi
+    et: et
+    es: es
+    el: el
+    de: de
+    da: da
+    cs: cs
+    bg: bg
+  domains:
+    en: ''
+    pt-pt: ''
+    sv: ''
+    sl: ''
+    sk: ''
+    ro: ''
+    pl: ''
+    nl: ''
+    mt: ''
+    lv: ''
+    lt: ''
+    it: ''
+    hu: ''
+    hr: ''
+    ga: ''
+    fr: ''
+    fi: ''
+    et: ''
+    es: ''
+    el: ''
+    de: ''
+    da: ''
+    cs: ''
+    bg: ''
+selected_langcode: site_default

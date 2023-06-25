@@ -1,0 +1,16 @@
+uuid: 3068daff-29ef-4646-a0fc-a6f926e6383f
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: 4Dt5tahDJBMMZISp8SxcMbvOEAUps6OBk4G0HrMa-GI
+id: lv
+label: Latvian
+direction: ltr
+weight: 12
+locked: false

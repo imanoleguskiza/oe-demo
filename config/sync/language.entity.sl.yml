@@ -1,0 +1,16 @@
+uuid: 52f10c6c-7433-46ce-a262-7d5ad0d6b9ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: X2GdIXFV9vehvHWI1KM4Q73ZY4h5sXx9tecxJm-bF4c
+id: sl
+label: Slovenian
+direction: ltr
+weight: 21
+locked: false

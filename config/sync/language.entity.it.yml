@@ -1,0 +1,16 @@
+uuid: 270c91d3-e3d8-4f56-8618-eecd22e3a2c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: eu
+_core:
+  default_config_hash: FStDxn2iIirmRU52fSa740oG2T4jvv9yYJFeMtOW1CY
+id: it
+label: Italian
+direction: ltr
+weight: 11
+locked: false
