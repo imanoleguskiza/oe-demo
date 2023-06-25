@@ -137,4 +137,6 @@ theme:
   stark: 0
   olivero: 0
   claro: 0
+  stable: 0
+  oe_theme: 0
 profile: minimal

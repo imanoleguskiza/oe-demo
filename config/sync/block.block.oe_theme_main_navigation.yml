@@ -1,0 +1,21 @@
+uuid: 03dd36f6-026f-49c3-b4f1-8506f05ff0e0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - oe_theme
+_core:
+  default_config_hash: YSGdf6kGwdeHiYaiHS4ck_u-7aD4uzS3e5Z3e95KbyA
+id: oe_theme_main_navigation
+theme: oe_theme
+region: navigation
+weight: 0
+provider: null
+plugin: 'oe_theme_helper_site_navigation:main'
+settings:
+  id: 'oe_theme_helper_site_navigation:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: oe_theme_helper
+  level: 1
+visibility: {  }
