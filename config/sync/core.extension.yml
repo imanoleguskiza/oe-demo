@@ -5,6 +5,7 @@ module:
   admin_toolbar: 0
   block: 0
   breakpoint: 0
+  ckeditor: 0
   composite_reference: 0
   datetime: 0
   datetime_range: 0
@@ -12,6 +13,8 @@ module:
   dblog: 0
   description_list_field: 0
   dynamic_page_cache: 0
+  editor: 0
+  embed: 0
   entity_browser: 0
   entity_browser_entity_form: 0
   entity_reference_revisions: 0
@@ -66,7 +69,10 @@ module:
   oe_corporate_countries_address: 0
   oe_media: 0
   oe_media_avportal: 0
+  oe_media_embed: 0
+  oe_media_iframe: 0
   oe_multilingual: 0
+  oe_oembed: 0
   options: 0
   page_cache: 0
   path: 0

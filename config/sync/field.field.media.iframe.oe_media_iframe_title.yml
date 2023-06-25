@@ -1,0 +1,21 @@
+uuid: d0ebb040-e3d8-4797-a64d-f32358c183cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.oe_media_iframe_title
+    - media.type.iframe
+_core:
+  default_config_hash: ZpqKLxRaqySflrpkkJ9hgDcivo0u6b5TIMmNuIn0iII
+id: media.iframe.oe_media_iframe_title
+field_name: oe_media_iframe_title
+entity_type: media
+bundle: iframe
+label: 'Iframe title'
+description: 'Providing an Iframe title value will replace the title value in the iframe html.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
