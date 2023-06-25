@@ -1,0 +1,22 @@
+uuid: 86aa20f0-6d91-4cce-b200-deabc3570669
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rdf_skos
+_core:
+  default_config_hash: '-A3eGd-4VY6qzqmtFwtnhS-pQbkpwLNxA8uG2E3lSeY'
+id: node.oe_news_types
+field_name: oe_news_types
+entity_type: node
+type: skos_concept_entity_reference
+settings:
+  target_type: skos_concept
+module: rdf_skos
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: fe139993-b44f-494f-8f0a-9547f19514bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_who_should_attend
+    - node.type.oe_event
+_core:
+  default_config_hash: HETGXDo6RQ7XYhg8fEL75XvN5VMrhgP4N_25S0e_Yn8
+id: node.oe_event.oe_event_who_should_attend
+field_name: oe_event_who_should_attend
+entity_type: node
+bundle: oe_event
+label: 'Who should attend'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

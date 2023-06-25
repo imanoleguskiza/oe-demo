@@ -1,0 +1,22 @@
+uuid: d9631d48-4310-4037-b653-9fab602c018c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rdf_skos
+_core:
+  default_config_hash: _KzFzapK_rP9C-RuFvTkd1udzDRV9Shx0L3hi6aPLb4
+id: node.oe_publication_countries
+field_name: oe_publication_countries
+entity_type: node
+type: skos_concept_entity_reference
+settings:
+  target_type: skos_concept
+module: rdf_skos
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

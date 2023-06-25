@@ -1,0 +1,24 @@
+uuid: 4705612f-fe94-4d05-bda4-83f1736ccfae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_report_summary
+    - node.type.oe_event
+  module:
+    - text
+_core:
+  default_config_hash: rt4VBG-46a5wXmSvzVW_aJCXxjBPK86jJga1Mz1F1_M
+id: node.oe_event.oe_event_report_summary
+field_name: oe_event_report_summary
+entity_type: node
+bundle: oe_event
+label: 'Summary for report'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

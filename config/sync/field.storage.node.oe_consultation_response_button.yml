@@ -1,0 +1,21 @@
+uuid: 4070569c-3cbe-4022-a17a-038ee8df6221
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: OKyektnDnvNEiBR-vkaZkynJFFjJ0nRzUjrkRgN5Taw
+id: node.oe_consultation_response_button
+field_name: oe_consultation_response_button
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

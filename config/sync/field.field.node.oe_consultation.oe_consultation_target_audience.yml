@@ -1,0 +1,24 @@
+uuid: bf3c5e15-7cd4-4b95-a67b-2859ae5b00ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_consultation_target_audience
+    - node.type.oe_consultation
+  module:
+    - text
+_core:
+  default_config_hash: yRzIEsfN1YL6a9QNNfStgLZj_DS6l7qgLL-VLBPy0vE
+id: node.oe_consultation.oe_consultation_target_audience
+field_name: oe_consultation_target_audience
+entity_type: node
+bundle: oe_consultation
+label: 'Target audience'
+description: 'Specify who should contribute to this consultation.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

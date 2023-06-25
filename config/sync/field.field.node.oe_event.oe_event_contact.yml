@@ -1,0 +1,39 @@
+uuid: 15963ab0-3f98-4b69-a4db-a7d6b0b33bdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_contact
+    - node.type.oe_event
+    - oe_content_entity_contact.oe_contact_type.oe_general
+    - oe_content_entity_contact.oe_contact_type.oe_press
+  module:
+    - composite_reference
+    - entity_reference_revisions
+third_party_settings:
+  composite_reference:
+    composite: true
+    composite_revisions: true
+_core:
+  default_config_hash: ljTJpPFwEjyTh02wJtYJGLPD7U2NQ_zyeIrUGszKzuM
+id: node.oe_event.oe_event_contact
+field_name: oe_event_contact
+entity_type: node
+bundle: oe_event
+label: 'Event contact'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:oe_contact'
+  handler_settings:
+    target_bundles:
+      oe_general: oe_general
+      oe_press: oe_press
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: oe_general
+field_type: entity_reference_revisions

@@ -1,0 +1,21 @@
+uuid: e1b665d9-47fb-4880-9f09-c44b0dc4fbbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: E1D-QEcds2L3a6-eGmLwa7uQLVEPSDupPYi8xbPCNH8
+id: node.oe_project_calls
+field_name: oe_project_calls
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 36c9f60f-e780-4804-bf74-a52e26d36939
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - oe_content_sub_entity_author
+_core:
+  default_config_hash: tsZnDW8gy4B-BRqcOz1LNa5DErDRyK1GfEQXL8eixOA
+id: oe_author.oe_link
+field_name: oe_link
+entity_type: oe_author
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

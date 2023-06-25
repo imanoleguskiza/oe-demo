@@ -1,0 +1,9 @@
+uuid: 6c552d3b-55f9-40e5-a1aa-e717b723fc42
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4lfzrVukegEZwJwDLJ5Lq3WxuV0DwEd74QwJr5JHRTY
+id: oe_political_leader
+label: 'EU Political leader'
+description: ''

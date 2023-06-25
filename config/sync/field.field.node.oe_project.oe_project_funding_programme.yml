@@ -1,0 +1,37 @@
+uuid: a909e4cb-9aee-4e72-93f7-d7989d44ff93
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_project_funding_programme
+    - node.type.oe_project
+  module:
+    - rdf_skos
+_core:
+  default_config_hash: SgDYzja6lSP7BJiXvbHNYr_coDMN2-iGmWawWA3PeYE
+id: node.oe_project.oe_project_funding_programme
+field_name: oe_project_funding_programme
+entity_type: node
+bundle: oe_project
+label: 'Funding programme'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:skos_concept'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    concept_schemes:
+      - 'http://publications.europa.eu/resource/authority/eu-programme'
+    field:
+      field_name: oe_project_funding_programme
+      entity_type: node
+      bundle: oe_project
+      concept_schemes:
+        - 'http://publications.europa.eu/resource/authority/eu-programme'
+field_type: skos_concept_entity_reference

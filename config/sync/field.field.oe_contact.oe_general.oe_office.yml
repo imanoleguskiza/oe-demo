@@ -1,0 +1,21 @@
+uuid: c49190fc-fdcb-4486-b172-57ef8dcb881e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_office
+    - oe_content_entity_contact.oe_contact_type.oe_general
+_core:
+  default_config_hash: lCQk34ML6mE5nrcOcgNzrrYmZVUMqXES3k8Bb0v--SU
+id: oe_contact.oe_general.oe_office
+field_name: oe_office
+entity_type: oe_contact
+bundle: oe_general
+label: Office
+description: 'Enter office identification (eg. BERL 04/347).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

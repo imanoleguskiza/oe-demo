@@ -1,0 +1,22 @@
+uuid: c53eae67-bd2f-4ce4-9d8b-71cc7458b821
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - oe_content_sub_entity_document_reference
+_core:
+  default_config_hash: vXR3Qn_ul7sXZqDL30JAGfNnN2irawZjJf9SH8rRMps
+id: oe_document_reference.oe_document
+field_name: oe_document
+entity_type: oe_document_reference
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

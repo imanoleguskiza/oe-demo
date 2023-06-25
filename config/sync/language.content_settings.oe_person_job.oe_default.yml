@@ -1,0 +1,20 @@
+uuid: 201dba1f-06c4-4c25-9c26-58d4b60dfa31
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_person.oe_person_job_type.oe_default
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: m1_KVN8BsZC77r0sQpvcvyRnXE4ORqbPSAESH3WY0wQ
+id: oe_person_job.oe_default
+target_entity_type_id: oe_person_job
+target_bundle: oe_default
+default_langcode: site_default
+language_alterable: true

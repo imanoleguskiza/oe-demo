@@ -1,0 +1,9 @@
+uuid: 4dc45a06-3697-4699-9c8b-1b173ae684a5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KgFjIB9cdq2m4IQXgqqDx3uPEPtVGLLgSlM2B5zdgMk
+id: oe_default
+label: Default
+description: 'Provides the default corporate Programme Item type.'

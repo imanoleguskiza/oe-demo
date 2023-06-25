@@ -1,0 +1,21 @@
+uuid: 0a2e8add-43a7-477a-ac0f-0712823ae5f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: JVnEnUXHu8Vd88tUdCHOX6ogtjbm4BHAYJBjnLNRnXY
+id: node.oe_project_results
+field_name: oe_project_results
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

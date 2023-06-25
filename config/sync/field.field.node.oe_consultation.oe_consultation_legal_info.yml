@@ -1,0 +1,24 @@
+uuid: 67057fc2-2109-4c1c-8011-7059131c4293
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_consultation_legal_info
+    - node.type.oe_consultation
+  module:
+    - text
+_core:
+  default_config_hash: ovCJA96iOB6upAhTg5lyZQ_KlTcjZ4qSDgcDsYJhqX8
+id: node.oe_consultation.oe_consultation_legal_info
+field_name: oe_consultation_legal_info
+entity_type: node
+bundle: oe_consultation
+label: 'Legal notice'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,21 @@
+uuid: 731d8e0a-c909-41c3-af1a-53e2f0a89152
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: fmnBhFUDzKg1MFBUfLGIpfUwFOyhuuCBJJPYbpG_7C8
+id: node.oe_person_transparency_intro
+field_name: oe_person_transparency_intro
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

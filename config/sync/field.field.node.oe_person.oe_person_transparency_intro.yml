@@ -1,0 +1,24 @@
+uuid: 5f8fa92c-50ad-4a33-af8e-131f2c56363d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_person_transparency_intro
+    - node.type.oe_person
+  module:
+    - text
+_core:
+  default_config_hash: a4tRmMtxb4BKouY-IA1RLkx7M4fSKdvzsK1-ErJVHwE
+id: node.oe_person.oe_person_transparency_intro
+field_name: oe_person_transparency_intro
+entity_type: node
+bundle: oe_person
+label: 'Transparency introduction'
+description: 'If possible, use the standard text for Commissioners and Directors-General.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

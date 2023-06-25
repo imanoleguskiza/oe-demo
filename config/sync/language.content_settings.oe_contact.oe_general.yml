@@ -1,0 +1,20 @@
+uuid: b98aac92-05f3-4de5-b859-df1a54ae9183
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_entity_contact.oe_contact_type.oe_general
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 1TJlwgCXQN6lY_TxM2Oj9pBCVTHNUomTEqlxGCbCELA
+id: oe_contact.oe_general
+target_entity_type_id: oe_contact
+target_bundle: oe_general
+default_langcode: site_default
+language_alterable: true

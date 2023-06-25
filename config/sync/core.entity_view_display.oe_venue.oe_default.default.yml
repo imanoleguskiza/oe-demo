@@ -1,0 +1,71 @@
+uuid: caf3e4d8-eeae-4d2a-be8a-41023b1fbed5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.oe_venue.oe_default.oe_address
+    - field.field.oe_venue.oe_default.oe_capacity
+    - field.field.oe_venue.oe_default.oe_room
+    - oe_content_entity_venue.oe_venue_type.oe_default
+  module:
+    - address
+_core:
+  default_config_hash: LVeynVZTVfmGlPw-gePZow_p4GQlqJ16ovH-K5izJ4Y
+id: oe_venue.oe_default.default
+targetEntityType: oe_venue
+bundle: oe_default
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+      tooltip:
+        date_format: long
+        custom_date_format: ''
+      time_diff:
+        enabled: false
+        future_format: '@interval hence'
+        past_format: '@interval ago'
+        granularity: 2
+        refresh: 60
+    third_party_settings: {  }
+  name:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  oe_address:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  oe_capacity:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  oe_room:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true
+  status: true

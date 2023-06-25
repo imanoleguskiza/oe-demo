@@ -1,0 +1,9 @@
+uuid: 62fd5f98-2ba5-4a74-b019-f81559e75d44
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gJtsfe3ACNKVti1xEb-i8dWoLfVT8G9sxKhBfNzBMPc
+id: oe_organisation
+label: Organisation
+description: ''

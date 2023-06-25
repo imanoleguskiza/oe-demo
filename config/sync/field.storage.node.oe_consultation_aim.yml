@@ -1,0 +1,21 @@
+uuid: b7475196-89ac-4831-9e72-aa0146ebe314
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: _QuVuYX6xBd3RrFz5Uv3FzURwWOxMeY3FYRUKF_nPE0
+id: node.oe_consultation_aim
+field_name: oe_consultation_aim
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

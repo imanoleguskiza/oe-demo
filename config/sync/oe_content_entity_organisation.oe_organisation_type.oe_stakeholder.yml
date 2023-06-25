@@ -1,0 +1,9 @@
+uuid: 28546c50-a60f-4c79-802d-e7520fa5be41
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BEwJnuFZQLQOn9NEECOhUpVaZIfhEc5b1S13589IYpU
+id: oe_stakeholder
+label: Stakeholder
+description: ''

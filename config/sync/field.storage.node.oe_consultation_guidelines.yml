@@ -1,0 +1,21 @@
+uuid: 958022f1-d01a-4f27-befb-394a71c1fac7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: OWNKReL0JGbQ20Oqu9rKfTndxJTBt0Z0qUzE7zZzqJU
+id: node.oe_consultation_guidelines
+field_name: oe_consultation_guidelines
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

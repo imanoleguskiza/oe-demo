@@ -1,0 +1,36 @@
+uuid: 6b88314a-52cd-4ad6-a8a3-51e77340b00f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_documents
+    - media.type.document
+    - node.type.oe_call_proposals
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: false
+    composite_revisions: false
+_core:
+  default_config_hash: NoSGQtYOnAXPsumpzlDJ2atX9Q0J-kxwMA9v5Vk7CHg
+id: node.oe_call_proposals.oe_documents
+field_name: oe_documents
+entity_type: node
+bundle: oe_call_proposals
+label: Documents
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

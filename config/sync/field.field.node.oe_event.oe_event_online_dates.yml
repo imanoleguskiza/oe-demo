@@ -1,0 +1,23 @@
+uuid: 677a139b-03cd-4a36-a6df-afc09018e8fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_online_dates
+    - node.type.oe_event
+  module:
+    - datetime_range_timezone
+_core:
+  default_config_hash: Wd8XRudEjh6_iMv1ASWY9_k48vvedBxOvgGhqDlQqkQ
+id: node.oe_event.oe_event_online_dates
+field_name: oe_event_online_dates
+entity_type: node
+bundle: oe_event
+label: 'Online time'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange_timezone

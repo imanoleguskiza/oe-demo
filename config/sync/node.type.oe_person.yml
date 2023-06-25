@@ -1,0 +1,13 @@
+uuid: 58781b59-dffb-4487-aaad-e1cb8e27330d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5-eldhHxdVHVgFYALHyfFZ6dq8ZvEsCHRIyIwtpcpxw
+name: Person
+type: oe_person
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

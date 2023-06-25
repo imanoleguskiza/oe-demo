@@ -29,6 +29,7 @@ url:
     da: da
     cs: cs
     bg: bg
+    '': null
   domains:
     en: ''
     pt-pt: ''

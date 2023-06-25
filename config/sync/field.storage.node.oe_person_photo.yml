@@ -1,0 +1,22 @@
+uuid: 17896b56-4459-4c26-a820-19babfe516bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: q2__TChFQS2Uy8L9NLHb3ytX_m1kMgKeSExfqxig5mY
+id: node.oe_person_photo
+field_name: oe_person_photo
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 3e053fd7-96a2-43e3-855a-7933e793b4b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rdf_skos
+_core:
+  default_config_hash: 4uXsXjQQTwgsKKQGG6eFQDCaPDMZLfjV70_LUCx7JeA
+id: node.oe_organisation_non_eu_org_type
+field_name: oe_organisation_non_eu_org_type
+entity_type: node
+type: skos_concept_entity_reference
+settings:
+  target_type: skos_concept
+module: rdf_skos
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

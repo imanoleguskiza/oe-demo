@@ -1,0 +1,21 @@
+uuid: 7376164a-4850-44cb-903c-a457d8fcf5b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_mobile
+    - oe_content_entity_contact.oe_contact_type.oe_press
+_core:
+  default_config_hash: taRRgzxIuV7ndvBLzxH9k_L-GB6B0QxCebG9URp3_Cc
+id: oe_contact.oe_press.oe_mobile
+field_name: oe_mobile
+entity_type: oe_contact
+bundle: oe_press
+label: 'Mobile number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

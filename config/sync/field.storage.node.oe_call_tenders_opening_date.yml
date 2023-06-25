@@ -1,0 +1,22 @@
+uuid: 3bc599e2-9c22-457d-b81e-f1a22a67c6d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: 6PEnmqADXrpS0l5dII-5ebG8dqhRt3aim7GdtLPxlI4
+id: node.oe_call_tenders_opening_date
+field_name: oe_call_tenders_opening_date
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

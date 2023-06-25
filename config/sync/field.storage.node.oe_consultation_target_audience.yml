@@ -1,0 +1,21 @@
+uuid: bca638e8-ea89-4783-ba58-a4d1a6b9605a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: TMK4ii4RJ58nIY6ThMTZX__8WSp_VnAevRQNN9x5qsM
+id: node.oe_consultation_target_audience
+field_name: oe_consultation_target_audience
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

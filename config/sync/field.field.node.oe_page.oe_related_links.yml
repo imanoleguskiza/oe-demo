@@ -1,0 +1,25 @@
+uuid: 54223381-c244-46a7-a710-fec6b91d15a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_related_links
+    - node.type.oe_page
+  module:
+    - link
+_core:
+  default_config_hash: o9ySfFn_VteTgNCu-QKjuzYYQWgcjUDLXC_SfpD5FpE
+id: node.oe_page.oe_related_links
+field_name: oe_related_links
+entity_type: node
+bundle: oe_page
+label: 'Related links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

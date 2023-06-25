@@ -1,0 +1,21 @@
+uuid: d35e24cc-8d83-4821-95fb-ed11dc5f2ac6
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_person
+    - text
+_core:
+  default_config_hash: FBavSOss_qKAdHQygPiqPuCjT_cvgHO-gIt2w8axgng
+id: oe_person_job.oe_description
+field_name: oe_description
+entity_type: oe_person_job
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

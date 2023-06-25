@@ -1,0 +1,22 @@
+uuid: 205d5fe5-10f3-408e-963a-065c0427c62c
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: _9QEg00FpRfqY6-FVtaVCd2b6ahl3bhlUMJDuRVIGo4
+id: node.oe_publication_last_updated
+field_name: oe_publication_last_updated
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

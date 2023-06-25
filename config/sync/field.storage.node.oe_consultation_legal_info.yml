@@ -1,0 +1,21 @@
+uuid: 2a36bba8-9826-420c-a2a1-9022d74f8be5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: JlNSYKjdJryfyvCj7otByrLWrYFicK8JNmqV6RWRZB8
+id: node.oe_consultation_legal_info
+field_name: oe_consultation_legal_info
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

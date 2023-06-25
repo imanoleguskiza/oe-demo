@@ -1,0 +1,21 @@
+uuid: 3dd0105a-48c0-4d57-b124-d69e2567432f
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - oe_content_entity_organisation
+_core:
+  default_config_hash: wxhYyCHo_jC4CQgbEIFMJrIs8H-96dtn-ZtDp0Ir-K8
+id: oe_organisation.oe_contact_url
+field_name: oe_contact_url
+entity_type: oe_organisation
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

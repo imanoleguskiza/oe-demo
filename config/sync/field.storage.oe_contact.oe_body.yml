@@ -1,0 +1,21 @@
+uuid: 5921a137-0264-490a-9398-09b5b6f4dd76
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_contact
+    - text
+_core:
+  default_config_hash: SfBbTJlsxfD1zgPITZhTN4d0-6_FZ7pdnQTb6d5B1JQ
+id: oe_contact.oe_body
+field_name: oe_body
+entity_type: oe_contact
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

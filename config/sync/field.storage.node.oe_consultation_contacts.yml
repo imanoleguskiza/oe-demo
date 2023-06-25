@@ -1,0 +1,23 @@
+uuid: ccef8efd-8d01-4cfa-88a3-0152f6e066a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - oe_content_entity_contact
+_core:
+  default_config_hash: MYJsJU2yNnrlv6hche8ur63rna8NP-TVEHMJnYQeCwY
+id: node.oe_consultation_contacts
+field_name: oe_consultation_contacts
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: oe_contact
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

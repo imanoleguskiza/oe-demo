@@ -1,0 +1,36 @@
+uuid: 532a7af6-2ea5-415d-a8ca-6b86118e8c46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_document_reference.oe_publication
+    - node.type.oe_publication
+    - oe_content_sub_entity_document_reference.oe_document_reference_type.oe_publication
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: false
+    composite_revisions: false
+_core:
+  default_config_hash: 5WdaX4XTdWCRyMwUXn5nVv5stYLw3gJgdwhopR75r8o
+id: oe_document_reference.oe_publication.oe_publication
+field_name: oe_publication
+entity_type: oe_document_reference
+bundle: oe_publication
+label: Publication
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      oe_publication: oe_publication
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

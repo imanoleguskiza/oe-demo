@@ -1,0 +1,23 @@
+uuid: b203cf2e-cabb-4d9b-8670-18874f6d4d63
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_project_dates
+    - node.type.oe_project
+  module:
+    - datetime_range
+_core:
+  default_config_hash: 4PsMoOk7FV3sHc9KHiiIlaQKzRnSmLSGCwYrXPbGm7c
+id: node.oe_project.oe_project_dates
+field_name: oe_project_dates
+entity_type: node
+bundle: oe_project
+label: 'Project period'
+description: 'If the project has no end date enter the same value as the start date.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

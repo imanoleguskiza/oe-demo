@@ -1,0 +1,23 @@
+uuid: 4ccae994-413d-4f79-add5-4baa8cd65d5e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: gA8x3dF88mMH915BTXGvy6FmWqMOPxoCyM_G64qQBAE
+id: node.oe_person_last_name
+field_name: oe_person_last_name
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

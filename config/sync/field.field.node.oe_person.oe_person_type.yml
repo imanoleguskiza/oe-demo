@@ -1,0 +1,25 @@
+uuid: f9db332d-8f95-4b11-852c-c9c72eea640e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_person_type
+    - node.type.oe_person
+  module:
+    - options
+_core:
+  default_config_hash: waSNUv4o4KEzCf0ALDo3VvSqkU9-Apxm7zzW35F_-eA
+id: node.oe_person.oe_person_type
+field_name: oe_person_type
+entity_type: node
+bundle: oe_person
+label: 'What type of person are you adding?'
+description: 'If EU official, Commissioner or MEP, choose "EU institutions related person". Otherwise, choose "Person not part of the EU institutions"'
+required: true
+translatable: false
+default_value:
+  -
+    value: eu
+default_value_callback: ''
+settings: {  }
+field_type: list_string

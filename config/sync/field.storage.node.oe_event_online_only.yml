@@ -1,0 +1,20 @@
+uuid: db1717bb-5dd6-47a4-97d2-06831dc98741
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: L1WnoTTpqDZoIvAbx_V0wBrgbTayESSDRP-DK0fB7aQ
+id: node.oe_event_online_only
+field_name: oe_event_online_only
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

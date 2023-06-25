@@ -1,0 +1,13 @@
+uuid: 10e18eb7-5b27-4f22-81fa-1d0e71087ca7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7aQMsAzrCrCwq0pKjYN1KWyRbw5WxG0jQ_JvJrOpbZQ
+name: Project
+type: oe_project
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

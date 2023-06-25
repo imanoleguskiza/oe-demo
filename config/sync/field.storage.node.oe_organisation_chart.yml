@@ -1,0 +1,22 @@
+uuid: 786b5b17-b348-4d5f-a2a8-e908a60c8f64
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: 6iVzvsqSdH5XX0LQcnxCck5h5qheHjSSzGv_fYpqhgI
+id: node.oe_organisation_chart
+field_name: oe_organisation_chart
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

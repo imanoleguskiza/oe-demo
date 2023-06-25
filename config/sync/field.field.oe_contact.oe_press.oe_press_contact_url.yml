@@ -1,0 +1,25 @@
+uuid: 8299363b-93d1-4ec4-a201-7e3c0e630a47
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_press_contact_url
+    - oe_content_entity_contact.oe_contact_type.oe_press
+  module:
+    - link
+_core:
+  default_config_hash: Vox2DHx6hQHe3yZP7ogpqftbtiqd5c2CZsuguklc6Tg
+id: oe_contact.oe_press.oe_press_contact_url
+field_name: oe_press_contact_url
+entity_type: oe_contact
+bundle: oe_press
+label: 'Press contacts'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

@@ -1,0 +1,22 @@
+uuid: f47a4d28-ee3d-48df-a536-59839399062f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: '-Hck1k1nVEzwo5JpkulE4_SDG1UFhkphqtVamslhh_M'
+id: node.oe_project_eu_contrib
+field_name: oe_project_eu_contrib
+entity_type: node
+type: decimal
+settings:
+  precision: 14
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

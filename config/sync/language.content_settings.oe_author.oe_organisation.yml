@@ -1,0 +1,20 @@
+uuid: a94633a6-e8ec-42e1-9f4e-5432abefc429
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_sub_entity_author.oe_author_type.oe_organisation
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: qVbB7FzH7byMf72Iyr-X6I_Sy4_PXADC3SQqaPjbSMY
+id: oe_author.oe_organisation
+target_entity_type_id: oe_author
+target_bundle: oe_organisation
+default_langcode: site_default
+language_alterable: true

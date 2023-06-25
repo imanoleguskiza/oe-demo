@@ -1,0 +1,21 @@
+uuid: ac6ed995-8191-4b19-85f8-65e932665500
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - oe_content_entity_organisation
+_core:
+  default_config_hash: 1E8PjFnEmnCuzxCgOqE5FuAWv_QVUnzs2yQ6lOfbjXY
+id: oe_organisation.oe_website
+field_name: oe_website
+entity_type: oe_organisation
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

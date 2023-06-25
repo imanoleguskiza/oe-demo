@@ -1,0 +1,21 @@
+uuid: bff28ac5-c26f-4628-b401-eb1fe64ae95f
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: bZcNxU24jMPFZQtNtcbX0lCaiHrj70oBcWknkNAvRS8
+id: node.oe_project_website
+field_name: oe_project_website
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

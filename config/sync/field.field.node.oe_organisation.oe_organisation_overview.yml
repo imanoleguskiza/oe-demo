@@ -1,0 +1,23 @@
+uuid: afb1fd44-7010-4ac1-a626-6f38eca8b57e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_organisation_overview
+    - node.type.oe_organisation
+  module:
+    - description_list_field
+_core:
+  default_config_hash: u8R4TlXZ69h7-tS2aokYNcGE0nQjskibWE7AsP3Nis8
+id: node.oe_organisation.oe_organisation_overview
+field_name: oe_organisation_overview
+entity_type: node
+bundle: oe_organisation
+label: Overview
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: description_list_field

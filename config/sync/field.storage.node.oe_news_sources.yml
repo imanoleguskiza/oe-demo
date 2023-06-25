@@ -1,0 +1,21 @@
+uuid: a90e3f7b-1d5b-4caa-8391-c9936bbf945c
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+_core:
+  default_config_hash: wo_riwszp1AgW2UZvbymowhewXCpo2uI6UK73E-XVzM
+id: node.oe_news_sources
+field_name: oe_news_sources
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

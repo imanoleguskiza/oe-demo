@@ -1,0 +1,24 @@
+uuid: 0faf551d-edc5-40e3-87f8-de05f7a0d129
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_consultation_closed_text
+    - node.type.oe_consultation
+  module:
+    - text
+_core:
+  default_config_hash: YzWMgzm3L57hKFgMe4VnN2F3FKF76GzREvh7j7q4seQ
+id: node.oe_consultation.oe_consultation_closed_text
+field_name: oe_consultation_closed_text
+entity_type: node
+bundle: oe_consultation
+label: 'Respond to the consultation (closed status text)'
+description: 'Specify the text that is displayed once the consultation is closed.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

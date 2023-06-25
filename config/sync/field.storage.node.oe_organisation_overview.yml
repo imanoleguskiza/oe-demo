@@ -1,0 +1,21 @@
+uuid: b396344d-eb24-42ac-9ffb-daf979859218
+langcode: en
+status: true
+dependencies:
+  module:
+    - description_list_field
+    - node
+_core:
+  default_config_hash: FS0zjdU101nqRxQNSr8-W63vrhzNrrvBXVjJlhmxN6A
+id: node.oe_organisation_overview
+field_name: oe_organisation_overview
+entity_type: node
+type: description_list_field
+settings: {  }
+module: description_list_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

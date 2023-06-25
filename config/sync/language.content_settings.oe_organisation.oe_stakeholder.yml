@@ -1,0 +1,20 @@
+uuid: 9199ced0-d62a-41c1-909e-d848930d1ae6
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_entity_organisation.oe_organisation_type.oe_stakeholder
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 9LVOgRKWDHwBowWPfgnEGJQJkC3Vcb7SoiCvpW-3TvA
+id: oe_organisation.oe_stakeholder
+target_entity_type_id: oe_organisation
+target_bundle: oe_stakeholder
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,23 @@
+uuid: 786394b6-9c01-4b9e-ad31-c635b4c4cd85
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - oe_content_entity_contact
+_core:
+  default_config_hash: zNh9aU63tgZkxfsmBaJs2dTrLEMt8YBSblSr7Qj5K_0
+id: node.oe_call_proposals_contact
+field_name: oe_call_proposals_contact
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: oe_contact
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

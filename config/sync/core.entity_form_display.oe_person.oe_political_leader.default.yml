@@ -1,0 +1,28 @@
+uuid: 4da261d5-e71f-499d-9652-bfafc095626d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.oe_person.oe_political_leader.oe_skos_reference
+    - oe_content_sub_entity_person.oe_person_type.oe_political_leader
+  module:
+    - rdf_skos
+_core:
+  default_config_hash: CCyprk5wLrbDbanpS1KYJ8HCWKinvIC4hr2kV23KWws
+id: oe_person.oe_political_leader.default
+targetEntityType: oe_person
+bundle: oe_political_leader
+mode: default
+content:
+  oe_skos_reference:
+    type: skos_concept_entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  status: true

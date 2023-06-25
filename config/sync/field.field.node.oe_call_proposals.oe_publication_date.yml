@@ -1,0 +1,26 @@
+uuid: ead97911-cdc5-4b4b-bfdf-bbaa66cb17b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_publication_date
+    - node.type.oe_call_proposals
+  module:
+    - datetime
+_core:
+  default_config_hash: aK_a72IcX9C8QmEkyXnqYDzLhzlClgmQrY63NDSVlnI
+id: node.oe_call_proposals.oe_publication_date
+field_name: oe_publication_date
+entity_type: node
+bundle: oe_call_proposals
+label: 'Publication date'
+description: 'Use to manually define the publication date printed on the page and metadata.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

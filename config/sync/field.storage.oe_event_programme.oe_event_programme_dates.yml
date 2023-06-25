@@ -1,0 +1,22 @@
+uuid: 54ebf04c-0e95-4ea5-b4c4-db4ffa46070e
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range_timezone
+    - oe_content_event_event_programme
+_core:
+  default_config_hash: hw5u4ixyTLtH2fRp95FQLVQpwZnvrk3UVlm4YzLA2g4
+id: oe_event_programme.oe_event_programme_dates
+field_name: oe_event_programme_dates
+entity_type: oe_event_programme
+type: daterange_timezone
+settings:
+  datetime_type: datetime
+module: datetime_range_timezone
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

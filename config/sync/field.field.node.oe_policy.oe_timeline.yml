@@ -1,0 +1,23 @@
+uuid: 9f7486b5-4941-4731-b756-83779c363468
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_timeline
+    - node.type.oe_policy
+  module:
+    - oe_content_timeline_field
+_core:
+  default_config_hash: sWOsQEDF6m4PLY2TW5egBuvOC4piYtCM9sILYJI1D7M
+id: node.oe_policy.oe_timeline
+field_name: oe_timeline
+entity_type: node
+bundle: oe_policy
+label: Timeline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timeline_field

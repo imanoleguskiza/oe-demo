@@ -1,0 +1,22 @@
+uuid: 8e4d0777-bc02-44de-9092-3e4c72745bdf
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+_core:
+  default_config_hash: JcWfj_fr1m4wMYdia5jCLDbr5VTJxBvFfYmHLm3-Vj4
+id: node.oe_person_cv
+field_name: oe_person_cv
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

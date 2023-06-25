@@ -1,0 +1,6 @@
+_core:
+  default_config_hash: uKW2yfKAF_D79wmhEV9eQGoNbDHxQL6LNn0OE7zD8ZA
+langcode: en
+base_url: 'https://data.ec.europa.eu/ewp/'
+supported_entity_types:
+  node: node

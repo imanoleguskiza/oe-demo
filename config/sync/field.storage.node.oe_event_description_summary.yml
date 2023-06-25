@@ -1,0 +1,21 @@
+uuid: 9c36e821-9552-4a78-9caa-ad87275418d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: kiaMs20dQsnG6prpGP8JEJBcbg0OL2BXE7rN_ulmDdI
+id: node.oe_event_description_summary
+field_name: oe_event_description_summary
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

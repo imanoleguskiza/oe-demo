@@ -1,0 +1,324 @@
+uuid: a4c8bd54-46f3-41dd-8521-682a9eef49f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.oe_consultation.oe_consultation_additional_info
+    - field.field.node.oe_consultation.oe_consultation_aim
+    - field.field.node.oe_consultation.oe_consultation_closed_text
+    - field.field.node.oe_consultation.oe_consultation_contacts
+    - field.field.node.oe_consultation.oe_consultation_deadline
+    - field.field.node.oe_consultation.oe_consultation_documents
+    - field.field.node.oe_consultation.oe_consultation_guidelines
+    - field.field.node.oe_consultation.oe_consultation_legal_info
+    - field.field.node.oe_consultation.oe_consultation_opening_date
+    - field.field.node.oe_consultation.oe_consultation_outcome
+    - field.field.node.oe_consultation.oe_consultation_outcome_files
+    - field.field.node.oe_consultation.oe_consultation_response_button
+    - field.field.node.oe_consultation.oe_consultation_target_audience
+    - field.field.node.oe_consultation.oe_departments
+    - field.field.node.oe_consultation.oe_subject
+    - field.field.node.oe_consultation.oe_summary
+    - field.field.node.oe_consultation.oe_teaser
+    - node.type.oe_consultation
+  module:
+    - datetime
+    - field_group
+    - inline_entity_form
+    - link
+    - maxlength
+    - path
+    - rdf_skos
+    - text
+third_party_settings:
+  field_group:
+    group_alternative_titles_and_tea:
+      children:
+        - oe_content_short_title
+        - oe_content_navigation_title
+        - oe_teaser
+      label: 'Alternative titles and teaser'
+      region: content
+      parent_name: ''
+      weight: 16
+      format_type: tab
+      format_settings:
+        classes: ''
+        id: ''
+        formatter: open
+        description: ''
+        required_fields: true
+_core:
+  default_config_hash: vFT5TbCuINA4hpA4dNhA1wqfJikt66qRxHTMJjC3ydk
+id: node.oe_consultation.default
+targetEntityType: node
+bundle: oe_consultation
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 22
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 20
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  oe_consultation_additional_info:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  oe_consultation_aim:
+    type: text_textarea
+    weight: 6
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  oe_consultation_closed_text:
+    type: text_textarea
+    weight: 8
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  oe_consultation_contacts:
+    type: inline_entity_form_complex
+    weight: 14
+    region: content
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Contact
+      label_plural: Contacts
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: true
+      collapsed: false
+      revision: true
+      removed_reference: keep
+    third_party_settings: {  }
+  oe_consultation_deadline:
+    type: datetime_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  oe_consultation_documents:
+    type: inline_entity_form_complex
+    weight: 15
+    region: content
+    settings:
+      form_mode: default
+      override_labels: false
+      label_singular: ''
+      label_plural: ''
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+      allow_duplicate: false
+      collapsible: true
+      collapsed: false
+      revision: true
+      removed_reference: keep
+    third_party_settings: {  }
+  oe_consultation_guidelines:
+    type: text_textarea
+    weight: 7
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  oe_consultation_legal_info:
+    type: text_textarea
+    weight: 13
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  oe_consultation_opening_date:
+    type: datetime_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  oe_consultation_outcome:
+    type: text_textarea
+    weight: 10
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  oe_consultation_outcome_files:
+    type: entity_reference_autocomplete
+    weight: 11
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  oe_consultation_response_button:
+    type: link_default
+    weight: 9
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  oe_consultation_target_audience:
+    type: text_textarea
+    weight: 5
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  oe_content_content_owner:
+    type: skos_concept_entity_reference_autocomplete
+    weight: 17
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  oe_content_legacy_link:
+    type: link_default
+    weight: 19
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  oe_content_navigation_title:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  oe_content_short_title:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 170
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: true
+  oe_departments:
+    type: skos_concept_entity_reference_autocomplete
+    weight: 4
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  oe_subject:
+    type: skos_concept_entity_reference_autocomplete
+    weight: 18
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  oe_summary:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 250
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: true
+  oe_teaser:
+    type: text_textarea
+    weight: 18
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 300
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: true
+  path:
+    type: path
+    weight: 25
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 23
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 26
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 24
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings:
+      maxlength:
+        maxlength_js: 170
+        maxlength_js_label: 'Content limited to @limit characters, remaining: <strong>@remaining</strong>'
+        maxlength_js_enforce: true
+  uid:
+    type: entity_reference_autocomplete
+    weight: 21
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 9a8dd9f1-34a0-43a0-8232-f99cf8773a44
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: G30pWNoq53TqrNx4vZvc8hwWKffWnFYNm9eaVb1leU8
+id: node.oe_publication_publications
+field_name: oe_publication_publications
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

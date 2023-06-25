@@ -1,0 +1,24 @@
+uuid: bc67f8cd-fea4-42e1-9f4c-8fbfff21866a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_online_description
+    - node.type.oe_event
+  module:
+    - text
+_core:
+  default_config_hash: kElS14GYWMD48b_IND895ZoHgEWYp2fKHh6VnW0l96E
+id: node.oe_event.oe_event_online_description
+field_name: oe_event_online_description
+entity_type: node
+bundle: oe_event
+label: 'Online description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

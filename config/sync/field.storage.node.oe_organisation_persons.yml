@@ -1,0 +1,21 @@
+uuid: c583f2f4-3ea5-4a99-afc9-4ae89a7d1cb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: _rAHuO7Dt4UCIXkk_MkQF2tcGlEtfZOq65wU0qeRPLU
+id: node.oe_organisation_persons
+field_name: oe_organisation_persons
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: 8b22396f-2d17-469f-b866-049e1c405b19
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_publication
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+_core:
+  default_config_hash: vwu86tvU28mnsGrvsOV42nvPZmutdZlQEuD0E9rYh5E
+id: node.oe_publication
+target_entity_type_id: node
+target_bundle: oe_publication
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,26 @@
+uuid: 69b6e60e-2ab7-4fcb-8c23-97b98a20575f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_publication_date
+    - node.type.oe_call_tenders
+  module:
+    - datetime
+_core:
+  default_config_hash: QHCpDbhEHTxGnFCOW7jlxRMJmwFL8Dso8Nm7nWFPhBI
+id: node.oe_call_tenders.oe_publication_date
+field_name: oe_publication_date
+entity_type: node
+bundle: oe_call_tenders
+label: 'Publication date'
+description: 'Use to manually define the publication date printed on the page and metadata.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

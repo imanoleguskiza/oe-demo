@@ -1,0 +1,29 @@
+uuid: 46443be0-905b-4eea-ab15-9996af94190f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: 8VPn7M7U4Jkp1Rb-JLTfc0DxoRFJoJHGrJe_I-Ipat4
+id: node.oe_organisation_org_type
+field_name: oe_organisation_org_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: eu
+      label: 'EU organisation'
+    -
+      value: non_eu
+      label: 'Non-EU organisation'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,9 @@
+uuid: 01684767-c14a-4179-a4d7-50ed5c441fb5
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: M0ERGZuhPjOoi6cptpH2MrGkhQkeWTG2gZPvRUgjQeI
+id: oe_default
+label: Default
+description: ''

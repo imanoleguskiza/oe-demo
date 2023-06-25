@@ -1,0 +1,24 @@
+uuid: 5bb733d8-1c47-4ffd-83ba-4b1181bf1546
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_project_results
+    - node.type.oe_project
+  module:
+    - text
+_core:
+  default_config_hash: TZ0zpUhZ4m5vxPEOmcamvIbEUi4kXQdzqRbAMdOHi78
+id: node.oe_project.oe_project_results
+field_name: oe_project_results
+entity_type: node
+bundle: oe_project
+label: Results
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

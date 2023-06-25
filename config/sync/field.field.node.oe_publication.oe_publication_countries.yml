@@ -1,0 +1,38 @@
+uuid: 393b1887-3df8-482d-8bc6-e21e32902fa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_publication_countries
+    - node.type.oe_publication
+  module:
+    - rdf_skos
+_core:
+  default_config_hash: 98CMVtS47zXKKCONO_fBGWdedpvQ5QVodtHBRvN6KVQ
+id: node.oe_publication.oe_publication_countries
+field_name: oe_publication_countries
+entity_type: node
+bundle: oe_publication
+label: Country
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:skos_concept'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    concept_schemes:
+      - 'http://publications.europa.eu/resource/authority/country'
+    concept_subset: null
+    field:
+      field_name: oe_publication_countries
+      entity_type: node
+      bundle: oe_publication
+      concept_schemes:
+        - 'http://publications.europa.eu/resource/authority/country'
+field_type: skos_concept_entity_reference

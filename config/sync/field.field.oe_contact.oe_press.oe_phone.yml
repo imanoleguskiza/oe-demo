@@ -1,0 +1,21 @@
+uuid: bf52320a-2fcb-4ff2-9c45-26b947436f12
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_phone
+    - oe_content_entity_contact.oe_contact_type.oe_press
+_core:
+  default_config_hash: ulVvm8Wa2z_htdT3cnRMN8UBrYu2HM7gPINusCv3wYU
+id: oe_contact.oe_press.oe_phone
+field_name: oe_phone
+entity_type: oe_contact
+bundle: oe_press
+label: 'Phone number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

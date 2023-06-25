@@ -1,0 +1,21 @@
+uuid: 0d09e3a8-69fe-4597-a122-a2d88fb3f7df
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_event_event_programme
+    - text
+_core:
+  default_config_hash: _gMMYCYDvtjpVd3-eIatwxvdC-lOm9hAo891ALnqhws
+id: oe_event_programme.oe_description
+field_name: oe_description
+entity_type: oe_event_programme
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

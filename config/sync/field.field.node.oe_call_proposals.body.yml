@@ -1,0 +1,26 @@
+uuid: d5e0490a-4e6a-4e12-b59c-2a71d23744f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.oe_call_proposals
+  module:
+    - text
+_core:
+  default_config_hash: Iw7IFLB6huKQnzrzJ3ALVILp0aligk0BTqXaNZHCTPM
+id: node.oe_call_proposals.body
+field_name: body
+entity_type: node
+bundle: oe_call_proposals
+label: 'Body text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

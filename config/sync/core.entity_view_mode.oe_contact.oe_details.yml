@@ -1,0 +1,12 @@
+uuid: ed57b4ad-2357-4665-92d5-ffdfce249b58
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_contact
+_core:
+  default_config_hash: 8G8rvaBr8_uQ-5xMwJ_DHzgXjrTeLoDJgW5jfRH3kQU
+id: oe_contact.oe_details
+label: Details
+targetEntityType: oe_contact
+cache: true

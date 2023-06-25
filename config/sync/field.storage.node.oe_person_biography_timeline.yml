@@ -1,0 +1,21 @@
+uuid: 63d1912a-fd98-4cb0-bd19-38d63d7bc602
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - oe_content_timeline_field
+_core:
+  default_config_hash: vuoJdLVdg1tVmPPB9LfUZkW1uRPBmSt4sNRIhreNoHA
+id: node.oe_person_biography_timeline
+field_name: oe_person_biography_timeline
+entity_type: node
+type: timeline_field
+settings: {  }
+module: oe_content_timeline_field
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: 1471d39b-e2f9-4e52-884f-ac7957553c9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_consultation_guidelines
+    - node.type.oe_consultation
+  module:
+    - text
+_core:
+  default_config_hash: ztxZ-K_X1uLRO6R_v_vvXa077xysOhRpvZgZG51DYDc
+id: node.oe_consultation.oe_consultation_guidelines
+field_name: oe_consultation_guidelines
+entity_type: node
+bundle: oe_consultation
+label: 'Respond to the consultation'
+description: 'Specify how to submit the response and how to view the questionnaire of the consultation.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: 0d6f3a9e-79ef-47c7-a7c9-f25f94dc4b0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - oe_content_sub_entity_author
+_core:
+  default_config_hash: '-a3k0b3jXQekczGMzNokpix5800eSMMZzw7jXloZlMY'
+id: oe_author.oe_node_reference
+field_name: oe_node_reference
+entity_type: oe_author
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

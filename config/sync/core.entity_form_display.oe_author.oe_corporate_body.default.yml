@@ -1,0 +1,28 @@
+uuid: bddae546-b3bb-4f4a-864a-d741e69cc403
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.oe_author.oe_corporate_body.oe_skos_reference
+    - oe_content_sub_entity_author.oe_author_type.oe_corporate_body
+  module:
+    - rdf_skos
+_core:
+  default_config_hash: R_P47P12nqo-RWODakDWvEgdRBRfc81Lnrzt_HfJdeU
+id: oe_author.oe_corporate_body.default
+targetEntityType: oe_author
+bundle: oe_corporate_body
+mode: default
+content:
+  oe_skos_reference:
+    type: skos_concept_entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  status: true

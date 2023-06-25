@@ -1,0 +1,26 @@
+uuid: f68b9c36-9c69-45e6-a633-dc3919a9a4e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.oe_author.oe_organisation.oe_node_reference
+    - oe_content_sub_entity_author.oe_author_type.oe_organisation
+_core:
+  default_config_hash: 2WdIHdT_eRaNshfKq9dB5FvrPR8IeYZ13fRZYy4ZP2c
+id: oe_author.oe_organisation.default
+targetEntityType: oe_author
+bundle: oe_organisation
+mode: default
+content:
+  oe_node_reference:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+hidden:
+  status: true

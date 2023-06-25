@@ -1,0 +1,25 @@
+uuid: 1c5da240-da2f-485d-b108-832c9b46a656
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_project_eu_budget
+    - node.type.oe_project
+_core:
+  default_config_hash: E6__MRP44VmZocqMip78Sch-sf4JbdSgRb-BmkMa4po
+id: node.oe_project.oe_project_eu_budget
+field_name: oe_project_eu_budget
+entity_type: node
+bundle: oe_project
+label: 'Overall budget'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: 999999999999.99
+  prefix: €
+  suffix: ''
+field_type: decimal

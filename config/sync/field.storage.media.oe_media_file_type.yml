@@ -1,0 +1,29 @@
+uuid: 6d2e47c2-2361-4b95-b041-25e81d1ff878
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - options
+_core:
+  default_config_hash: KUVZMwrARluSm9Vsysk5m8m6PauzbKRMtlzZLnbI-Fk
+id: media.oe_media_file_type
+field_name: oe_media_file_type
+entity_type: media
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: remote
+      label: Remote
+    -
+      value: local
+      label: Local
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 971c875e-4c65-410a-9ab5-f731cef4b002
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rdf_skos
+_core:
+  default_config_hash: PBDB2QjjH8pv89h5BOOKn_1DtzzSS-B_YkoIU0NQOPs
+id: node.oe_call_proposals_funding
+field_name: oe_call_proposals_funding
+entity_type: node
+type: skos_concept_entity_reference
+settings:
+  target_type: skos_concept
+module: rdf_skos
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

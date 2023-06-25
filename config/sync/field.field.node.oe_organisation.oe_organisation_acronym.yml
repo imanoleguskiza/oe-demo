@@ -1,0 +1,21 @@
+uuid: 8993f08a-c965-45b2-b14f-ecfcc2cd83c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_organisation_acronym
+    - node.type.oe_organisation
+_core:
+  default_config_hash: dd0GKVntbe4NYA1qAmtXTe-g7l_eNY5y9ee1auZ2-zg
+id: node.oe_organisation.oe_organisation_acronym
+field_name: oe_organisation_acronym
+entity_type: node
+bundle: oe_organisation
+label: Acronym
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

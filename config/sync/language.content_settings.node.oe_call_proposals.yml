@@ -1,0 +1,18 @@
+uuid: 54753020-58f3-4a64-a899-6f0a51e24c24
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_proposals
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+_core:
+  default_config_hash: Z10H-Swp8G5Hmz7avSS9yMYP1BOcDTZqZdhG9ksxvGw
+id: node.oe_call_proposals
+target_entity_type_id: node
+target_bundle: oe_call_proposals
+default_langcode: site_default
+language_alterable: true

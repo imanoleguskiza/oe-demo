@@ -1,0 +1,24 @@
+uuid: 7be01ffb-a736-46ae-8a07-dc217ffd2867
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_body
+    - oe_content_entity_contact.oe_contact_type.oe_general
+  module:
+    - text
+_core:
+  default_config_hash: l8HQUTy_O0gZEHt7wRbsMrBcgQKBA8VkadZjbV5egug
+id: oe_contact.oe_general.oe_body
+field_name: oe_body
+entity_type: oe_contact
+bundle: oe_general
+label: 'Body text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

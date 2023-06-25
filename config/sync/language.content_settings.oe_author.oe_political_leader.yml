@@ -1,0 +1,20 @@
+uuid: 0ef005ec-06f1-4940-80b8-75ff4451b9ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_sub_entity_author.oe_author_type.oe_political_leader
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: pJA34DDPyemppSaocZ6j5x2S1kPPRXvtLCJOuOVEG28
+id: oe_author.oe_political_leader
+target_entity_type_id: oe_author
+target_bundle: oe_political_leader
+default_langcode: site_default
+language_alterable: true

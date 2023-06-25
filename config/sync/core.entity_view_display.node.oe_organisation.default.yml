@@ -1,0 +1,170 @@
+uuid: 5c6cdd5b-cfa9-4984-bc62-74ff264ea616
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.oe_organisation.body
+    - field.field.node.oe_organisation.oe_organisation_acronym
+    - field.field.node.oe_organisation.oe_organisation_chart
+    - field.field.node.oe_organisation.oe_organisation_contact
+    - field.field.node.oe_organisation.oe_organisation_eu_org
+    - field.field.node.oe_organisation.oe_organisation_eu_org_type
+    - field.field.node.oe_organisation.oe_organisation_logo
+    - field.field.node.oe_organisation.oe_organisation_non_eu_org_type
+    - field.field.node.oe_organisation.oe_organisation_org_type
+    - field.field.node.oe_organisation.oe_organisation_overview
+    - field.field.node.oe_organisation.oe_organisation_persons
+    - field.field.node.oe_organisation.oe_organisation_staff_link
+    - field.field.node.oe_organisation.oe_subject
+    - field.field.node.oe_organisation.oe_summary
+    - field.field.node.oe_organisation.oe_teaser
+    - node.type.oe_organisation
+  module:
+    - description_list_field
+    - entity_reference_revisions
+    - link
+    - options
+    - rdf_skos
+    - text
+    - user
+_core:
+  default_config_hash: H2V5Mpr0X9DZTk9CuWkr94m40nvHz5Hh5mGNwIziiWM
+id: node.oe_organisation.default
+targetEntityType: node
+bundle: oe_organisation
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  oe_organisation_acronym:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  oe_organisation_chart:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  oe_organisation_contact:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  oe_organisation_eu_org:
+    type: skos_concept_entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  oe_organisation_eu_org_type:
+    type: skos_concept_entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  oe_organisation_logo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  oe_organisation_non_eu_org_type:
+    type: skos_concept_entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  oe_organisation_org_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  oe_organisation_overview:
+    type: description_list_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  oe_organisation_persons:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  oe_organisation_staff_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  oe_subject:
+    type: skos_concept_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  oe_summary:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  oe_teaser:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 7
+    region: content
+hidden:
+  langcode: true
+  oe_content_content_owner: true
+  oe_content_legacy_link: true
+  oe_content_navigation_title: true
+  oe_content_short_title: true
+  oe_organisation_persons: true

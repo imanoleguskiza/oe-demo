@@ -1,0 +1,23 @@
+uuid: 15a4461b-22d3-421b-b74a-04a1d72532d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - oe_content_sub_entity_document_reference
+_core:
+  default_config_hash: KRDU3AvCL6ibCS9H5TfNDWEqaGRM_SQZ9YnntgpURuU
+id: node.oe_consultation_documents
+field_name: oe_consultation_documents
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: oe_document_reference
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

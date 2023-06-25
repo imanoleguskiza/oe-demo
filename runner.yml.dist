@@ -11,16 +11,19 @@ drupal:
         name: '${env.DRUPAL_ACCOUNT_USERNAME}'
         password: '${env.DRUPAL_ACCOUNT_PASSWORD}'
         mail: subsite@example.com
-    post_install:
-        - "./vendor/bin/drush theme:enable olivero"
-        - "./vendor/bin/drush config-set system.theme default olivero -y"
     additional_settings: |
         if (intval(getenv('DRUPAL_PROXY_ENABLE')) === 1) {
             $settings['http_client_config']['proxy']['http'] = getenv('DRUPAL_PROXY_HTTP');
             $settings['http_client_config']['proxy']['https'] = getenv('DRUPAL_PROXY_HTTPS');
             $settings['http_client_config']['proxy']['no'] = array_map('trim', explode(',', getenv('DRUPAL_PROXY_NO')));
         }
-
+        $databases['sparql_default']['default'] = [
+            'prefix' => '',
+            'host' => getenv('DRUPAL_SPARQL_HOSTNAME'),
+            'port' => getenv('DRUPAL_SPARQL_PORT'),
+            'namespace' => 'Drupal\sparql_entity_storage\Driver\Database\sparql',
+            'driver' => 'sparql',
+        ];
         // Set trusted host patterns.
         if (getenv('DRUPAL_TRUSTED_HOST_PATTERNS')) {
             $settings['trusted_host_patterns'] = explode(',', getenv('DRUPAL_TRUSTED_HOST_PATTERNS'));

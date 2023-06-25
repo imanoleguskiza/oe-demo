@@ -1,0 +1,37 @@
+uuid: cb3c1a87-1073-4d5d-b1f9-c7e1ed3c2604
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_subject
+    - node.type.oe_project
+  module:
+    - rdf_skos
+_core:
+  default_config_hash: E6v58A0c0goi-u7lbw4T2bC_8KB9MnXjOUkjNrtSzJ8
+id: node.oe_project.oe_subject
+field_name: oe_subject
+entity_type: node
+bundle: oe_project
+label: Subject
+description: 'The topics mentioned on this page. These will be used by search engines and dynamic lists to determine their relevance to a user.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:skos_concept'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    concept_schemes:
+      - 'http://data.europa.eu/uxp/det'
+    field:
+      field_name: oe_subject
+      entity_type: node
+      bundle: oe_project
+      concept_schemes:
+        - 'http://data.europa.eu/uxp/det'
+field_type: skos_concept_entity_reference

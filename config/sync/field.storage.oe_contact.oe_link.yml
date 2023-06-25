@@ -1,0 +1,21 @@
+uuid: 0819b84b-82e5-4f4d-aab4-a439346dcfcb
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - oe_content_entity_contact
+_core:
+  default_config_hash: lfD8tbw593mEQt8VoTCIKnxykGcqM-m2mZP_kFDgV2Q
+id: oe_contact.oe_link
+field_name: oe_link
+entity_type: oe_contact
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

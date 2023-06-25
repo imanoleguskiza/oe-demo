@@ -1,0 +1,23 @@
+uuid: 6f29d95a-0897-45c5-a251-eefd0788f011
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_person_biography_timeline
+    - node.type.oe_person
+  module:
+    - oe_content_timeline_field
+_core:
+  default_config_hash: 0resOFcMNcV8LHXTuAar613o-W8w1fN5s8XyLhqA8EY
+id: node.oe_person.oe_person_biography_timeline
+field_name: oe_person_biography_timeline
+entity_type: node
+bundle: oe_person
+label: Biography
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timeline_field

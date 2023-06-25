@@ -1,0 +1,25 @@
+uuid: 3b6308e3-d417-4357-b724-1d62e48d12a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_online_link
+    - node.type.oe_event
+  module:
+    - link
+_core:
+  default_config_hash: JNP_IzbPt5uOtDLpPXKEykcQzduXQEaDac_VZTirbNI
+id: node.oe_event.oe_event_online_link
+field_name: oe_event_online_link
+entity_type: node
+bundle: oe_event
+label: 'Online link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

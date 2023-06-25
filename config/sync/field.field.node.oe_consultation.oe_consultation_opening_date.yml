@@ -1,0 +1,23 @@
+uuid: dc908cc0-0208-446b-b6f4-56ee69e06333
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_consultation_opening_date
+    - node.type.oe_consultation
+  module:
+    - datetime
+_core:
+  default_config_hash: Ys6qHbcbKQnJ67S64pEZRRVw19eIt2ImJAdx2Y0xLps
+id: node.oe_consultation.oe_consultation_opening_date
+field_name: oe_consultation_opening_date
+entity_type: node
+bundle: oe_consultation
+label: 'Opening date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

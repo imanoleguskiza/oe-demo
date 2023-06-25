@@ -1,0 +1,47 @@
+uuid: c2db13bf-2cbe-4100-887a-9e0c4ecd33b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.oe_event_programme.oe_default.oe_description
+    - field.field.oe_event_programme.oe_default.oe_event_programme_dates
+    - oe_content_event_event_programme.oe_event_programme_type.oe_default
+  module:
+    - datetime_range_timezone
+    - text
+_core:
+  default_config_hash: MD_ZlQ-oRBzcJyNYuStZ8mXSkHaKnEiiuHpmsiKoSAE
+id: oe_event_programme.oe_default.default
+targetEntityType: oe_event_programme
+bundle: oe_default
+mode: default
+content:
+  name:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  oe_description:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  oe_event_programme_dates:
+    weight: 2
+    label: above
+    settings:
+      separator: '-'
+      format_type: medium
+      display_timezone: true
+    third_party_settings: {  }
+    type: daterange_timezone
+    region: content
+hidden:
+  created: true
+  langcode: true
+  status: true

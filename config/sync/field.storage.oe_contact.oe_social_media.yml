@@ -1,0 +1,37 @@
+uuid: 3fda12ef-9edf-4569-8186-85dc9d8d8d99
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_contact
+    - typed_link
+_core:
+  default_config_hash: 6rMCkHoyQqQMJ99XXzTwoep2pgOOVzgDCztAlpHda7c
+id: oe_contact.oe_social_media
+field_name: oe_social_media
+entity_type: oe_contact
+type: typed_link
+settings:
+  allowed_values:
+    email: Email
+    facebook: Facebook
+    flickr: Flickr
+    google: Google+
+    instagram: Instagram
+    linkedin: Linkedin
+    pinterest: Pinterest
+    rss: RSS
+    storify: Storify
+    twitter: Twitter
+    yammer: Yammer
+    youtube: YouTube
+    telegram: Telegram
+    mastodon: Mastodon
+  allowed_values_function: ''
+module: typed_link
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

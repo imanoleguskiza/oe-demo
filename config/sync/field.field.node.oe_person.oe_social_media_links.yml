@@ -1,0 +1,25 @@
+uuid: ff90e571-9c79-4ed2-9156-c087433c60d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_social_media_links
+    - node.type.oe_person
+  module:
+    - typed_link
+_core:
+  default_config_hash: XddM53JDxhasHMlHxz2nQwNWneVCXMitcbqw7JCZVIk
+id: node.oe_person.oe_social_media_links
+field_name: oe_social_media_links
+entity_type: node
+bundle: oe_person
+label: 'Social media links'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: typed_link

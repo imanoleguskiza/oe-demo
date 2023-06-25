@@ -42,5 +42,13 @@ services:
     expose:
       - 4444
 
+  sparql:
+    image: openeuropa/triple-store-dev
+    environment:
+      - SPARQL_UPDATE=true
+      - DBA_PASSWORD=dba
+    ports:
+      - "8890:8890"
+
 volumes:
   mysql:

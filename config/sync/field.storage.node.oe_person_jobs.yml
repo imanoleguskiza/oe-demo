@@ -1,0 +1,23 @@
+uuid: 89f97e5a-675e-4d95-a29e-62d2f22c2c99
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - oe_content_person
+_core:
+  default_config_hash: _Hnehnwe7rKxCsfKTCygs_ADvOaJezVF6Obu8YmdIso
+id: node.oe_person_jobs
+field_name: oe_person_jobs
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: oe_person_job
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

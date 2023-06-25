@@ -1,0 +1,40 @@
+uuid: df01b777-0dc3-4665-b871-4bce6ea860bf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_publication_type
+    - node.type.oe_publication
+  module:
+    - rdf_skos
+_core:
+  default_config_hash: c32UXAG0xtN-rsFmlFxKwxYlShlFvZovzPUG72os1EM
+id: node.oe_publication.oe_publication_type
+field_name: oe_publication_type
+entity_type: node
+bundle: oe_publication
+label: 'Resource type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_id: 'http://publications.europa.eu/resource/authority/resource-type/PUB_GEN'
+default_value_callback: ''
+settings:
+  handler: 'default:skos_concept'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+    concept_schemes:
+      - 'http://publications.europa.eu/resource/authority/resource-type'
+    concept_subset: null
+    field:
+      field_name: oe_publication_type
+      entity_type: node
+      bundle: oe_publication
+      concept_schemes:
+        - 'http://publications.europa.eu/resource/authority/resource-type'
+field_type: skos_concept_entity_reference

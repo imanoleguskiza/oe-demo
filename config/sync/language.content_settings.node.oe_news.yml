@@ -1,0 +1,18 @@
+uuid: 9935f854-5d02-4cf3-9c94-3b224307644d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_news
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+_core:
+  default_config_hash: nl84icDZVfKqB_E6YgToClYDVEjpzfMutYWPSVH68eY
+id: node.oe_news
+target_entity_type_id: node
+target_bundle: oe_news
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,20 @@
+uuid: 0e96e41f-2bdd-461d-860e-a4f21703781a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Faj-JRTmDEMAsLH6atan6VuoSHPyVqohvD3_TWd9r3E
+id: node.oe_project_budget
+field_name: oe_project_budget
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

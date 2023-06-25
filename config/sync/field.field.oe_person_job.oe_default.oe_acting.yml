@@ -1,0 +1,25 @@
+uuid: bea1f79f-92c5-4c0c-89cd-400930f5710e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_person_job.oe_acting
+    - oe_content_person.oe_person_job_type.oe_default
+_core:
+  default_config_hash: 7MfNmqKFY1UZTtcC7QPh28lBsvbyFFGv-O96E0C63II
+id: oe_person_job.oe_default.oe_acting
+field_name: oe_acting
+entity_type: oe_person_job
+bundle: oe_default
+label: 'Acting role'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

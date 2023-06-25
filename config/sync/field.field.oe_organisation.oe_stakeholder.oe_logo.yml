@@ -1,0 +1,30 @@
+uuid: a2e4b708-348d-4719-99b0-38c57d4d9a62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_organisation.oe_logo
+    - media.type.image
+    - oe_content_entity_organisation.oe_organisation_type.oe_stakeholder
+_core:
+  default_config_hash: OVOeVSo7eKih4OSEYPShk3kI-qTtD8Z9oX6iDvfSeSc
+id: oe_organisation.oe_stakeholder.oe_logo
+field_name: oe_logo
+entity_type: oe_organisation
+bundle: oe_stakeholder
+label: Logo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

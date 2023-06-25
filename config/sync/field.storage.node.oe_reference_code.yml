@@ -1,0 +1,23 @@
+uuid: 965939de-d64b-4d26-8043-7ab22939869d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: MTIAmcEU_xZtgTWcST5LPTuCA-_0GWHnH-PSOzmv6pU
+id: node.oe_reference_code
+field_name: oe_reference_code
+entity_type: node
+type: string
+settings:
+  max_length: 150
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

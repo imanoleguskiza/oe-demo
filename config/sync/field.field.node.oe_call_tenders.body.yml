@@ -1,0 +1,26 @@
+uuid: 83e0f0c3-9085-4048-ba67-4a3e75d17853
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.oe_call_tenders
+  module:
+    - text
+_core:
+  default_config_hash: vTj9rNCd-8qIgvNIxpAqAZMhVfhEOXSIxj0kPIoD4d0
+id: node.oe_call_tenders.body
+field_name: body
+entity_type: node
+bundle: oe_call_tenders
+label: 'Body text'
+description: 'Your page main contents'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

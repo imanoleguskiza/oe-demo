@@ -1,0 +1,20 @@
+uuid: 408efc57-51e0-481e-985d-87a1cfbd2a6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_person
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: v_pMj5gMDgJEqAlfJlABfhikVHryK_9HiMh0ogEQxQY
+id: node.oe_person
+target_entity_type_id: node
+target_bundle: oe_person
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,24 @@
+uuid: 25b01526-7d58-4d9c-9d21-52531ae3d83e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_media_more_description
+    - node.type.oe_event
+  module:
+    - text
+_core:
+  default_config_hash: hqzvBx6JYYK4i_kZTY4Wvm1ceJ9vgideqIq5LaxbYOs
+id: node.oe_event.oe_event_media_more_description
+field_name: oe_event_media_more_description
+entity_type: node
+bundle: oe_event
+label: 'Other links to further media items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

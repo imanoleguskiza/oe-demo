@@ -1,0 +1,24 @@
+uuid: 7825ade6-a169-4144-bbc2-717bcde7a9a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.oe_event_status_description
+    - node.type.oe_event
+  module:
+    - text
+_core:
+  default_config_hash: Go7NkLBu_TxvGe8PHGH1o3jut1vvh9D_0KSO7JOCARs
+id: node.oe_event.oe_event_status_description
+field_name: oe_event_status_description
+entity_type: node
+bundle: oe_event
+label: 'Status description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

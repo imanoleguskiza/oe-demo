@@ -1,0 +1,13 @@
+uuid: bccbd9a8-6455-421b-b946-019531f15e21
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bEKknPq-2u6heLtFic2ezZUrRpnlGfJOv3-0MdjB_Xg
+name: Organisation
+type: oe_organisation
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

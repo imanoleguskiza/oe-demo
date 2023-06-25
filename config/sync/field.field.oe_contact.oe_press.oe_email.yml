@@ -1,0 +1,21 @@
+uuid: 81ac43e9-48e4-4a97-8819-83fd9398efa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_contact.oe_email
+    - oe_content_entity_contact.oe_contact_type.oe_press
+_core:
+  default_config_hash: 3bH_CseqpFkGvZn9ozTAagAsy71tfM4OBGy81WJX3-w
+id: oe_contact.oe_press.oe_email
+field_name: oe_email
+entity_type: oe_contact
+bundle: oe_press
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

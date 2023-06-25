@@ -1,0 +1,23 @@
+uuid: 4eb996d5-a693-43ef-ba4b-89aebdab27ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+    - oe_content_featured_media_field
+_core:
+  default_config_hash: ZFlO9TD3aqHizXFFXxDgwwRPSFPmxzsW82xZFiAleZk
+id: node.oe_featured_media
+field_name: oe_featured_media
+entity_type: node
+type: oe_featured_media
+settings:
+  target_type: media
+module: oe_content_featured_media_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
