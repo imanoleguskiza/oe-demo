@@ -1,0 +1,43 @@
+uuid: a4db6a81-2cf1-4a26-a2b7-7189933cfe23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.oe_illustration_item_icon.field_oe_icon
+    - field.field.paragraph.oe_illustration_item_icon.field_oe_text_long
+    - field.field.paragraph.oe_illustration_item_icon.field_oe_title
+    - paragraphs.paragraphs_type.oe_illustration_item_icon
+  module:
+    - text
+_core:
+  default_config_hash: LL1VIvQxr64c-KFKW732B1YeDKsIZCNajsHE8KKRx0Y
+id: paragraph.oe_illustration_item_icon.default
+targetEntityType: paragraph
+bundle: oe_illustration_item_icon
+mode: default
+content:
+  field_oe_icon:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_oe_text_long:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_oe_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

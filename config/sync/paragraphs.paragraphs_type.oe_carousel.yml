@@ -1,0 +1,12 @@
+uuid: 41c16730-e357-40df-984b-147522820137
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IDmx18j6YIhTh7XvKhFCTOw8p2TYj-X6mP8Q9BPrFnM
+id: oe_carousel
+label: Carousel
+icon_uuid: null
+icon_default: null
+description: 'Allows editors to create a carousel similar to a banner with multiple slides.'
+behavior_plugins: {  }

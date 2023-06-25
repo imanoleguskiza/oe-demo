@@ -1,0 +1,21 @@
+uuid: 21536f03-8e5b-4395-a270-22dffa1b4795
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_title
+    - paragraphs.paragraphs_type.oe_contact
+_core:
+  default_config_hash: THwvv8V8V6AQ2mrab9kbG5S0VkQZoy2JTZA30TH1pc0
+id: paragraph.oe_contact.field_oe_title
+field_name: field_oe_title
+entity_type: paragraph
+bundle: oe_contact
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,12 @@
+uuid: 3fd8ceca-1082-40eb-be4e-efb9ca89daa7
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: oeN-VUZlJZdRkw7jQCw7h6CIlDCv1CgTfthK6o6w6EA
+id: paragraph.oe_illustration_vertical
+label: Vertical
+targetEntityType: paragraph
+cache: true

@@ -1,0 +1,23 @@
+uuid: 60e84fcf-076d-487b-815a-1f8d9d9337c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_illustration_ratio
+    - paragraphs.paragraphs_type.oe_illustration_list_images
+  module:
+    - options
+_core:
+  default_config_hash: o7mU9Yv_QLuXHkMRXh6wnSjtAT5ukGIomNZlC2rpjRQ
+id: paragraph.oe_illustration_list_images.field_oe_illustration_ratio
+field_name: field_oe_illustration_ratio
+entity_type: paragraph
+bundle: oe_illustration_list_images
+label: 'Image ratio'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

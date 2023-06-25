@@ -1,0 +1,12 @@
+uuid: 8fa0c542-aa18-4a89-bcc1-f00bb6b4822d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: reqy23XOKLpK06be7_o44uiA6qKkxqHxpZ4JO2vVbug
+id: oe_illustration_list_flags
+label: 'Illustration list with flags'
+icon_uuid: null
+icon_default: null
+description: 'Illustration list with flags paragraph to show list of flags with description.'
+behavior_plugins: {  }

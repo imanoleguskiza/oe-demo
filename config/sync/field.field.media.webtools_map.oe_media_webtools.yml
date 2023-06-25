@@ -1,0 +1,23 @@
+uuid: 9bb50b63-dc4e-469a-bc87-b8218f94d906
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.oe_media_webtools
+    - media.type.webtools_map
+  module:
+    - json_field
+_core:
+  default_config_hash: sFi91d97IcbQjXIreVfBA5KjbmdZsV_YkganX3jfqh0
+id: media.webtools_map.oe_media_webtools
+field_name: oe_media_webtools
+entity_type: media
+bundle: webtools_map
+label: 'Webtools map snippet'
+description: 'Enter the snippet without the script tag. Snippets can be generated in <a href="https://europa.eu/webtools/tools/#/wizards" target="_blank">Webtools wizard</a> or in the newer <a href="https://europa.eu/webtools/tools/#/wcloud/" target="_blank">WCLOUD wizard</a>.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: json

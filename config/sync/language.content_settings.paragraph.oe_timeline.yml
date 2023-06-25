@@ -1,0 +1,20 @@
+uuid: afb3462f-7509-4fce-a8cf-38db0f3b05c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.oe_timeline
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: '-23hh2fo4Hnro_MjMVPPNl66Qgn6JscO9d9NAzTfzSY'
+id: paragraph.oe_timeline
+target_entity_type_id: paragraph
+target_bundle: oe_timeline
+default_langcode: site_default
+language_alterable: true

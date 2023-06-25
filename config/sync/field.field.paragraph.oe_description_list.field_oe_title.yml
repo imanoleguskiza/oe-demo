@@ -1,0 +1,21 @@
+uuid: 99003329-312b-4e80-bc3b-49542971c3e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_title
+    - paragraphs.paragraphs_type.oe_description_list
+_core:
+  default_config_hash: eC9bah1pgU36qHFEZCywgHY70aXBbqRLi58HLbIK5xw
+id: paragraph.oe_description_list.field_oe_title
+field_name: field_oe_title
+entity_type: paragraph
+bundle: oe_description_list
+label: Heading
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

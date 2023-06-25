@@ -1,0 +1,20 @@
+uuid: c055558a-0b3e-4fbb-87d7-15126751e59d
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.oe_illustration_list_icons
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: I7nzhN57qpudkmjSnP0T1-NP7n29SnKLKnefwEBXAjw
+id: paragraph.oe_illustration_list_icons
+target_entity_type_id: paragraph
+target_bundle: oe_illustration_list_icons
+default_langcode: site_default
+language_alterable: true

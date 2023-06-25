@@ -1,0 +1,29 @@
+uuid: 5219d460-e290-4cee-a3c5-7cd9bfb16196
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_text_long
+    - paragraphs.paragraphs_type.oe_list_item
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - plain_text
+_core:
+  default_config_hash: sauWBI0PZuxjV4VkWQdh9t84x_w9spRQoo-R4-X9rRU
+id: paragraph.oe_list_item.field_oe_text_long
+field_name: field_oe_text_long
+entity_type: paragraph
+bundle: oe_list_item
+label: Description
+description: 'List item description, displayed below the title.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

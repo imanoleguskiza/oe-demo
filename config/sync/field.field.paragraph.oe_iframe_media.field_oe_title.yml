@@ -1,0 +1,21 @@
+uuid: b1b64904-d5f1-46d0-8dc3-e369b79e0419
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_title
+    - paragraphs.paragraphs_type.oe_iframe_media
+_core:
+  default_config_hash: 2_cEgFoESLSwXzvsUCeT1Lpq_svocd68ZG0YmkBuo7s
+id: paragraph.oe_iframe_media.field_oe_title
+field_name: field_oe_title
+entity_type: paragraph
+bundle: oe_iframe_media
+label: Title
+description: 'An optional title to show above the iframe.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

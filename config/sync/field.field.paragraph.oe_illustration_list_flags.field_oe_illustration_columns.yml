@@ -1,0 +1,23 @@
+uuid: 5352ef66-50b5-4a72-a901-493e1471a704
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_illustration_columns
+    - paragraphs.paragraphs_type.oe_illustration_list_flags
+  module:
+    - options
+_core:
+  default_config_hash: m-_YYY-62LDDmfJuaAbXHyJrVKl0PjFPtNKmchqQ2kk
+id: paragraph.oe_illustration_list_flags.field_oe_illustration_columns
+field_name: field_oe_illustration_columns
+entity_type: paragraph
+bundle: oe_illustration_list_flags
+label: Columns
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

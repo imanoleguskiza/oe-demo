@@ -1,0 +1,39 @@
+uuid: 24022e94-ac41-4488-bf07-4751a1e02f66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_media
+    - media.type.av_portal_photo
+    - media.type.image
+    - paragraphs.paragraphs_type.oe_illustration_item_image
+  module:
+    - composite_reference
+third_party_settings:
+  composite_reference:
+    composite: false
+    composite_revisions: false
+_core:
+  default_config_hash: M0RyU5EVC5vQ_MGQg_nJcY6gW443S7S7q45p3WdkRg8
+id: paragraph.oe_illustration_item_image.field_oe_media
+field_name: field_oe_media
+entity_type: paragraph
+bundle: oe_illustration_item_image
+label: Image
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      av_portal_photo: av_portal_photo
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

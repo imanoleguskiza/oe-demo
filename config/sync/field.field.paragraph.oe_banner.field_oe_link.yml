@@ -1,0 +1,25 @@
+uuid: ef3447bd-4ab5-48f1-b8c1-a5bda5b8df5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_link
+    - paragraphs.paragraphs_type.oe_banner
+  module:
+    - link
+_core:
+  default_config_hash: n23auuoYPT5fF4J5PuJmmBUw0ETOY1WqBouKrFHRS0I
+id: paragraph.oe_banner.field_oe_link
+field_name: field_oe_link
+entity_type: paragraph
+bundle: oe_banner
+label: 'Call to action'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

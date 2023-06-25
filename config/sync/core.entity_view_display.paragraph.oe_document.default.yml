@@ -1,0 +1,24 @@
+uuid: 39feb549-338a-47c7-bd16-32b10e71ad98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.oe_document.field_oe_media
+    - paragraphs.paragraphs_type.oe_document
+_core:
+  default_config_hash: Mem4lVdwtrMLU4eRqi6spHCswE3c2jELRLP2DCkWZBA
+id: paragraph.oe_document.default
+targetEntityType: paragraph
+bundle: oe_document
+mode: default
+content:
+  field_oe_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

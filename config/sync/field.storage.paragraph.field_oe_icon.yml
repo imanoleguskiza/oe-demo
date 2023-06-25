@@ -1,0 +1,23 @@
+uuid: 9318382d-a1a2-4516-834d-413f3e72bbf4
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: KAer1lnNUuQc-ltSWlM9KB5oOR1owzMUXKyq9Lvh_Gg
+id: paragraph.field_oe_icon
+field_name: field_oe_icon
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: _oe_paragraphs_allowed_values_icons
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

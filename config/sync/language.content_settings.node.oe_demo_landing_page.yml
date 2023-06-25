@@ -1,0 +1,20 @@
+uuid: b168f3d6-3c3c-43e8-beba-7d79c1934ce2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_demo_landing_page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: 84TWUivPL7vHKVmsv_8Ojh_6GBPC0iAg-PoaIAnRzjU
+id: node.oe_demo_landing_page
+target_entity_type_id: node
+target_bundle: oe_demo_landing_page
+default_langcode: site_default
+language_alterable: true

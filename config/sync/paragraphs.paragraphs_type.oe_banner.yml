@@ -1,0 +1,12 @@
+uuid: 2b60b476-6573-4553-8c0b-aca0a7ac9763
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 3YqJ3WeqA2RypErIyEWmiHaMWYYwQ_PUPKXYe5Rpydw
+id: oe_banner
+label: Banner
+icon_uuid: null
+icon_default: null
+description: 'Allows editors to create Banners that display a prominent message and related action.'
+behavior_plugins: {  }

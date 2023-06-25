@@ -1,0 +1,12 @@
+uuid: 57387007-6270-452c-84b9-04fefa814fbb
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ir8Zr39zqZshz_vkM16ITVSba7FCZDNArnxAcMSbD34
+id: oe_document
+label: Document
+icon_uuid: null
+icon_default: null
+description: 'Provides Document paragraph that renders media documents.'
+behavior_plugins: {  }

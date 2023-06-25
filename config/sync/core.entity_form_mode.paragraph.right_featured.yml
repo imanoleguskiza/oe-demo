@@ -1,0 +1,12 @@
+uuid: 218f9d7a-35c7-4fd0-ae4f-7c59086df02f
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: PkDAEPiFSvmII1_FuqBHGHxA9ajVFRVSxhELqGUv-9g
+id: paragraph.right_featured
+label: 'Text on the right, featured call to action'
+targetEntityType: paragraph
+cache: true

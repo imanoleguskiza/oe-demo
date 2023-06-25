@@ -1,0 +1,20 @@
+uuid: 534f9acb-3185-4778-8d14-751f5de0114e
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.oe_carousel_item
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+_core:
+  default_config_hash: 17kf9koflu3ESqnDSccYxnYjyRFEq1d-9Cd_ugAdozM
+id: paragraph.oe_carousel_item
+target_entity_type_id: paragraph
+target_bundle: oe_carousel_item
+default_langcode: site_default
+language_alterable: true

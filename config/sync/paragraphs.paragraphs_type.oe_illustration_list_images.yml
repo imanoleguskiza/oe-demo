@@ -1,0 +1,12 @@
+uuid: c69cda9a-dbef-48c8-9788-03d6e4752051
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: oqfAYbbxItkgzv6i9VSiSQTUjqJmTL5P1ic572HyRsg
+id: oe_illustration_list_images
+label: 'Illustration list with images'
+icon_uuid: null
+icon_default: null
+description: 'Illustration list with images paragraph to show list of images with description.'
+behavior_plugins: {  }

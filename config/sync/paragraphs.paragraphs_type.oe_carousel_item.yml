@@ -1,0 +1,12 @@
+uuid: c1dcb7ee-7014-460e-80ab-dee26890933d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _SzHib7NUenZmUpUYbThNFnBtLp_StC3sjVt-gBTvBM
+id: oe_carousel_item
+label: 'Carousel item'
+icon_uuid: null
+icon_default: null
+description: 'Single carousel item, to be used exclusively in conjunction with the "Carousel" paragraph type.'
+behavior_plugins: {  }

@@ -1,0 +1,23 @@
+uuid: 3a9d0af3-060f-42c6-b8ee-9f866d26785b
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: 2ZObReJ7TzcusZDbD_YsRP8XNw6fBv-O3XmmpHDeT8A
+id: paragraph.field_oe_illustration_ratio
+field_name: field_oe_illustration_ratio
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values: {  }
+  allowed_values_function: _oe_paragraphs_illustrations_lists_allowed_values_ratios
+module: options
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 7e1e79ae-2a9d-4f90-97d3-1c6aa78c3a1b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_highlighted
+    - paragraphs.paragraphs_type.oe_text_feature_media
+_core:
+  default_config_hash: a3wsw3b7rTsKralvB8fzz7F9FFurkef1fSImxLJeHEM
+id: paragraph.oe_text_feature_media.field_oe_highlighted
+field_name: field_oe_highlighted
+entity_type: paragraph
+bundle: oe_text_feature_media
+label: Highlighted
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

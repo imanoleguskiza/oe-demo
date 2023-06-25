@@ -1,0 +1,25 @@
+uuid: 9a5a2797-5b7d-4543-916e-d2a5b16c5d88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_iframe_media_full_width
+    - paragraphs.paragraphs_type.oe_iframe_media
+_core:
+  default_config_hash: dHaFX-Zy3DuG7foPs-e8fok2Ku2kXU54aFDCWqMe97c
+id: paragraph.oe_iframe_media.field_oe_iframe_media_full_width
+field_name: field_oe_iframe_media_full_width
+entity_type: paragraph
+bundle: oe_iframe_media
+label: 'Full width'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,12 @@
+uuid: 781e4572-257f-46c2-8500-78e6cbcb493a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: AVGcuWxBvIt0i5NowqKudHeXFiLAiveBy3cmeZJITv0
+id: paragraph.left_featured
+label: 'Text on the left, featured call to action'
+targetEntityType: paragraph
+cache: true

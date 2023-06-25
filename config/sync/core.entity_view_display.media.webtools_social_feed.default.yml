@@ -1,0 +1,29 @@
+uuid: 3aa2b6c8-f2a7-4135-bc9d-c9e275005bd8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.webtools_social_feed.oe_media_webtools
+    - media.type.webtools_social_feed
+  module:
+    - oe_webtools
+_core:
+  default_config_hash: 6UrCJ7U1I1_f4Rov0rxTgZy9Gc7lFs4MAou6NQLKDGY
+id: media.webtools_social_feed.default
+targetEntityType: media
+bundle: webtools_social_feed
+mode: default
+content:
+  oe_media_webtools:
+    type: webtools_snippet
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

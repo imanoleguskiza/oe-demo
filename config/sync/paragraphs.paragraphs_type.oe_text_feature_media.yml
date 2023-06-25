@@ -1,0 +1,12 @@
+uuid: f650a287-6c42-4fef-8113-cc4e35596945
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: R4_kRInyufLAfkvH4bCYavXTsXQeW_5WPP10SXaCgbI
+id: oe_text_feature_media
+label: 'Text with Featured media'
+icon_uuid: null
+icon_default: null
+description: 'Shows a rich text with a title and a featured media on the right, if any.'
+behavior_plugins: {  }

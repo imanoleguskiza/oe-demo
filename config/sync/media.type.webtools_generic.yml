@@ -1,0 +1,28 @@
+uuid: 51f0c300-5daa-47c2-9ed5-6f80bc61154e
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools_media
+_core:
+  default_config_hash: KH7eqgxtmGssLdts-O3JqZWnKzIJ-4h9pityQmjigoc
+id: webtools_generic
+label: 'Webtools generic'
+description: 'Generic media type for webtools.'
+source: webtools
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  widget_type: generic
+  generic_widget_type_blacklist:
+    - charts
+    - chart
+    - racing
+    - map
+    - smk
+    - opwidget
+    - etrans
+    - cdown
+    - qlik
+  source_field: oe_media_webtools
+field_map: {  }

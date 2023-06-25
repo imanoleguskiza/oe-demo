@@ -1,0 +1,25 @@
+uuid: dd6dd0ca-dfae-47ad-8d63-bdf526a99d98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_illustration_alternate
+    - paragraphs.paragraphs_type.oe_illustration_list_icons
+_core:
+  default_config_hash: fn4CYMu_2_-vfIcvFlYqBsl6IPrf2OZ1XJKy82uCu54
+id: paragraph.oe_illustration_list_icons.field_oe_illustration_alternate
+field_name: field_oe_illustration_alternate
+entity_type: paragraph
+bundle: oe_illustration_list_icons
+label: 'Alternating background'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

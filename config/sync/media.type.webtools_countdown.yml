@@ -1,0 +1,28 @@
+uuid: b95b18e2-399a-438a-9dca-dc5a33cc2e54
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools_media
+_core:
+  default_config_hash: ZJSnyovqd-HD9TRHA2-aCYefxi86TShmEH4oGQL4KgE
+id: webtools_countdown
+label: 'Webtools countdown'
+description: 'Media type for Webtools countdown.'
+source: webtools
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  widget_type: cdown
+  generic_widget_type_blacklist:
+    - charts
+    - chart
+    - racing
+    - map
+    - smk
+    - opwidget
+    - etrans
+    - cdown
+    - qlik
+  source_field: oe_media_webtools
+field_map: {  }

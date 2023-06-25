@@ -1,0 +1,23 @@
+uuid: dfda727f-6f08-4496-8645-faf01225bba8
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: Iym4VuTn8nJitRjMTmqMjBPqiC0gP5xunqHYOWSBg7Y
+id: paragraph.field_oe_feature_media_title
+field_name: field_oe_feature_media_title
+entity_type: paragraph
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

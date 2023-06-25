@@ -24,6 +24,12 @@ type_settings:
     document: document
     image: image
     remote_video: remote_video
+    webtools_chart: webtools_chart
+    webtools_countdown: webtools_countdown
+    webtools_generic: webtools_generic
+    webtools_map: webtools_map
+    webtools_op_publication_list: webtools_op_publication_list
+    webtools_social_feed: webtools_social_feed
   entity_browser: ''
   entity_browser_settings:
     display_review: false

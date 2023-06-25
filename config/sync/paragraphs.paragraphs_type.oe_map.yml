@@ -1,0 +1,12 @@
+uuid: a451f9d2-3151-4a19-8e37-9e3ada16a483
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SOB5YdT4w9DwkzS8NAMiBMqoB6GXOQfeND6jc8uw2_8
+id: oe_map
+label: Map
+icon_uuid: null
+icon_default: null
+description: 'Shows Webtools map media entities'
+behavior_plugins: {  }

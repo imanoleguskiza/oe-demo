@@ -1,0 +1,20 @@
+uuid: 09929685-b9de-4b5c-8406-865d7353b572
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 4_h0okQvNl4GggoTLF72ixhJqO2u7An_E2c5ptmhgwM
+id: paragraph.field_oe_illustration_alternate
+field_name: field_oe_illustration_alternate
+entity_type: paragraph
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

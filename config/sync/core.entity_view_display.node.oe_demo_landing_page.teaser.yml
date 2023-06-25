@@ -1,0 +1,27 @@
+uuid: 163ca8cc-821b-4f22-b7e2-3e74238a64d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.oe_demo_landing_page.field_oe_demo_body
+    - node.type.oe_demo_landing_page
+  module:
+    - user
+_core:
+  default_config_hash: cdgO8_vfLv7ycDTcc1S1lsckBaI2voWBCmaNHeZGAe4
+id: node.oe_demo_landing_page.teaser
+targetEntityType: node
+bundle: oe_demo_landing_page
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_oe_demo_body: true
+  langcode: true
+  oe_content_content_owner: true
+  oe_content_legacy_link: true
+  oe_content_navigation_title: true
+  oe_content_short_title: true

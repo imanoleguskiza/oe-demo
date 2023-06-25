@@ -3,6 +3,7 @@ _core:
 module:
   address: 0
   admin_toolbar: 0
+  allowed_formats: 0
   block: 0
   breakpoint: 0
   ckeditor: 0
@@ -25,6 +26,7 @@ module:
   filter: 0
   image: 0
   inline_entity_form: 0
+  json_field: 0
   language: 0
   link: 0
   linkit: 0
@@ -32,6 +34,8 @@ module:
   maxlength: 0
   media: 0
   media_avportal: 0
+  menu_link_content: 0
+  menu_ui: 0
   mysql: 0
   node: 0
   oe_content: 0
@@ -71,14 +75,34 @@ module:
   oe_media_avportal: 0
   oe_media_embed: 0
   oe_media_iframe: 0
+  oe_media_webtools: 0
   oe_multilingual: 0
   oe_oembed: 0
+  oe_paragraphs: 0
+  oe_paragraphs_banner: 0
+  oe_paragraphs_carousel: 0
+  oe_paragraphs_chart: 0
+  oe_paragraphs_contact: 0
+  oe_paragraphs_demo: 0
+  oe_paragraphs_description_list: 0
+  oe_paragraphs_document: 0
+  oe_paragraphs_gallery: 0
+  oe_paragraphs_iframe_media: 0
+  oe_paragraphs_illustrations_lists: 0
+  oe_paragraphs_map: 0
+  oe_paragraphs_media: 0
+  oe_paragraphs_media_field_storage: 0
+  oe_paragraphs_social_feed: 0
+  oe_paragraphs_timeline: 0
+  oe_webtools: 0
+  oe_webtools_media: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
   rdf_skos: 0
   remote_stream_wrapper: 0
+  serialization: 0
   sparql_entity_storage: 0
   system: 0
   text: 0
@@ -90,6 +114,7 @@ module:
   pathauto: 1
   content_translation: 10
   views: 10
+  paragraphs: 11
   minimal: 1000
 theme:
   stark: 0

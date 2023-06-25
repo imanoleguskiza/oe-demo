@@ -1,0 +1,21 @@
+uuid: 5a248b03-ac1c-409e-ac37-a9a43142c01d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_oe_title
+    - paragraphs.paragraphs_type.oe_illustration_list_images
+_core:
+  default_config_hash: f-6oERb-Df5Dgy2z8QXtXA_6T5QQtI5Jtr8VtFmjd9A
+id: paragraph.oe_illustration_list_images.field_oe_title
+field_name: field_oe_title
+entity_type: paragraph
+bundle: oe_illustration_list_images
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -17,6 +17,7 @@
         "drupal/core-composer-scaffold": "^10",
         "drupal/description_list_field": "^1.0@alpha",
         "drupal/field_group": "^3.4",
+        "drupal/json_field": "^1.2",
         "drush/drush": "^10 | ^11",
         "openeuropa/composer-artifacts": "^1.0@alpha",
         "openeuropa/oe_contact_forms": "^1.11",

@@ -1,0 +1,28 @@
+uuid: b72336a4-d0ff-400b-b7cd-eb9628e22fb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools_media
+_core:
+  default_config_hash: o3HNVXmS80GNBsbJm9yLLsyPJnlPc5AKrlrpXwrX1xg
+id: webtools_social_feed
+label: 'Webtools social feed'
+description: 'Media type for Webtools social feed'
+source: webtools
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  widget_type: social_feed
+  generic_widget_type_blacklist:
+    - charts
+    - chart
+    - racing
+    - map
+    - smk
+    - opwidget
+    - etrans
+    - cdown
+    - qlik
+  source_field: oe_media_webtools
+field_map: {  }

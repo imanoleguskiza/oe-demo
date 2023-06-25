@@ -1,0 +1,12 @@
+uuid: 131a9966-fad4-4be4-b376-2f90e7b64a12
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OGMifQHdW_xf2SATSn2A0RKxC9xbhx4GL8M84uBekYA
+id: oe_illustration_item_flag
+label: 'Illustration item with flag'
+icon_uuid: null
+icon_default: null
+description: 'Single illustration item with flag, to be used exclusively in conjunction with the "Illustration list with flags" paragraph type.'
+behavior_plugins: {  }
