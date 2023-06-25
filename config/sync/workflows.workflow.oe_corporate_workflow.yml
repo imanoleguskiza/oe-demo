@@ -1,0 +1,158 @@
+uuid: 66028d6b-953e-4d43-b852-e6372d4706ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_moderation
+    - entity_version_workflows
+third_party_settings:
+  entity_version_workflows:
+    create_new_draft:
+      minor: increase
+      check_values_changed: true
+    needs_review_to_draft:
+      minor: increase
+      check_values_changed: true
+    request_validation_to_draft:
+      minor: increase
+      check_values_changed: true
+    validated_to_draft:
+      minor: increase
+    published_to_draft:
+      minor: increase
+    published_to_archived:
+      minor: increase
+    published_to_expired:
+      minor: increase
+    archived_to_draft:
+      minor: increase
+      check_values_changed: true
+    request_validation_to_validated:
+      major: increase
+      minor: reset
+_core:
+  default_config_hash: mBc9ppmPrZskZrI-G6Van7pvSdPmOd0rvcm5DA1Tq3k
+id: oe_corporate_workflow
+label: 'Corporate Workflow'
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Archived
+      weight: 1
+      published: false
+      default_revision: true
+    draft:
+      label: Draft
+      weight: -4
+      published: false
+      default_revision: false
+    expired:
+      label: Expired
+      weight: 2
+      published: false
+      default_revision: true
+    needs_review:
+      label: 'Needs Review'
+      weight: -3
+      published: false
+      default_revision: false
+    published:
+      label: Published
+      weight: 0
+      published: true
+      default_revision: true
+    request_validation:
+      label: 'Request Validation'
+      weight: -2
+      published: false
+      default_revision: false
+    validated:
+      label: Validated
+      weight: -1
+      published: false
+      default_revision: false
+  transitions:
+    archived_to_draft:
+      label: 'Archived to Draft'
+      from:
+        - archived
+        - expired
+      to: draft
+      weight: 5
+    create_new_draft:
+      label: 'Create New Draft'
+      from:
+        - draft
+        - published
+      to: draft
+      weight: -7
+    needs_review_to_draft:
+      label: 'Needs Review to Draft'
+      from:
+        - needs_review
+      to: draft
+      weight: -5
+    needs_review_to_request_validation:
+      label: 'Needs Review to Request Validation'
+      from:
+        - needs_review
+      to: request_validation
+      weight: -4
+    published_to_archived:
+      label: 'Published to Archived'
+      from:
+        - archived
+        - published
+      to: archived
+      weight: 3
+    published_to_draft:
+      label: 'Published to Draft'
+      from:
+        - published
+      to: draft
+      weight: 2
+    published_to_expired:
+      label: 'Published to Expired'
+      from:
+        - expired
+        - published
+      to: expired
+      weight: 4
+    request_review:
+      label: 'Draft to Needs Review'
+      from:
+        - draft
+      to: needs_review
+      weight: -6
+    request_validation_to_draft:
+      label: 'Request Validation to Draft'
+      from:
+        - request_validation
+      to: draft
+      weight: -3
+    request_validation_to_needs_review:
+      label: 'Request Validation to Needs Review'
+      from:
+        - request_validation
+      to: needs_review
+      weight: -2
+    request_validation_to_validated:
+      label: 'Request Validation to Validated'
+      from:
+        - request_validation
+      to: validated
+      weight: -1
+    validated_to_draft:
+      label: 'Validated to Draft'
+      from:
+        - validated
+      to: draft
+      weight: 0
+    validated_to_published:
+      label: 'Validated to Published'
+      from:
+        - validated
+      to: published
+      weight: 1
+  entity_types: {  }

@@ -8,6 +8,7 @@ module:
   breakpoint: 0
   ckeditor: 0
   composite_reference: 0
+  content_moderation: 0
   datetime: 0
   datetime_range: 0
   datetime_range_timezone: 0
@@ -16,9 +17,14 @@ module:
   dynamic_page_cache: 0
   editor: 0
   embed: 0
+  emr: 0
+  emr_node: 0
   entity_browser: 0
   entity_browser_entity_form: 0
   entity_reference_revisions: 0
+  entity_version: 0
+  entity_version_workflows: 0
+  facets: 0
   field: 0
   field_group: 0
   file: 0
@@ -36,6 +42,7 @@ module:
   media_avportal: 0
   menu_link_content: 0
   menu_ui: 0
+  multivalue_form_element: 0
   mysql: 0
   node: 0
   oe_content: 0
@@ -69,8 +76,16 @@ module:
   oe_content_sub_entity_document_reference: 0
   oe_content_sub_entity_person: 0
   oe_content_timeline_field: 0
+  oe_corporate_blocks: 0
   oe_corporate_countries: 0
   oe_corporate_countries_address: 0
+  oe_corporate_site_info: 0
+  oe_editorial: 0
+  oe_editorial_corporate_workflow: 0
+  oe_editorial_entity_version: 0
+  oe_editorial_unpublish: 0
+  oe_list_page_content_type: 0
+  oe_list_pages: 0
   oe_media: 0
   oe_media_avportal: 0
   oe_media_embed: 0
@@ -102,6 +117,7 @@ module:
   path_alias: 0
   rdf_skos: 0
   remote_stream_wrapper: 0
+  search_api: 0
   serialization: 0
   sparql_entity_storage: 0
   system: 0
@@ -111,6 +127,7 @@ module:
   typed_link: 0
   update: 0
   user: 0
+  workflows: 0
   pathauto: 1
   content_translation: 10
   views: 10

@@ -1,0 +1,21 @@
+uuid: 9c8e0075-3704-40f7-b3fa-8a6750a90d69
+langcode: en
+status: true
+dependencies:
+  config:
+    - emr.entity_meta_type.oe_list_page
+    - field.storage.entity_meta.oe_list_page_config
+_core:
+  default_config_hash: 93BvDPj4w4rowBWjnDbXzdsqcAna7F1lk87VBg2UsJI
+id: entity_meta.oe_list_page.oe_list_page_config
+field_name: oe_list_page_config
+entity_type: entity_meta
+bundle: oe_list_page
+label: 'List Pages configuration'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

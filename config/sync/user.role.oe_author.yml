@@ -1,0 +1,29 @@
+uuid: 5109aed3-57ab-459d-9b8f-df801a124a8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - workflows.workflow.oe_corporate_workflow
+  module:
+    - content_moderation
+    - node
+_core:
+  default_config_hash: Z8nzyez7V0e7iw1PryUDBledg8ggMooilwPFztEalYw
+id: oe_author
+label: Author
+weight: 2
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'use oe_corporate_workflow transition archived_to_draft'
+  - 'use oe_corporate_workflow transition create_new_draft'
+  - 'use oe_corporate_workflow transition needs_review_to_draft'
+  - 'use oe_corporate_workflow transition published_to_draft'
+  - 'use oe_corporate_workflow transition request_review'
+  - 'use oe_corporate_workflow transition request_validation_to_draft'
+  - 'use oe_corporate_workflow transition validated_to_draft'
+  - 'use oe_corporate_workflow transition validated_to_published'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'

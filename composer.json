@@ -16,6 +16,7 @@
         "drupal/core": "^10",
         "drupal/core-composer-scaffold": "^10",
         "drupal/description_list_field": "^1.0@alpha",
+        "drupal/entity_version_workflows": "^1.2",
         "drupal/field_group": "^3.4",
         "drupal/json_field": "^1.2",
         "drush/drush": "^10 | ^11",

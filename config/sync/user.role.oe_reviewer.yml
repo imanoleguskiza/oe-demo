@@ -1,0 +1,22 @@
+uuid: cc74ef08-e59b-4f37-9c5e-ec169bfbdcd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - workflows.workflow.oe_corporate_workflow
+  module:
+    - content_moderation
+    - node
+_core:
+  default_config_hash: v3yG9fFuALZMby8CR5GAwFnhGJDH885WI_wRcd3oBGg
+id: oe_reviewer
+label: Reviewer
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'use oe_corporate_workflow transition needs_review_to_draft'
+  - 'use oe_corporate_workflow transition needs_review_to_request_validation'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view latest version'

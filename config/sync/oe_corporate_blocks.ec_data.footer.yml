@@ -1,0 +1,86 @@
+_core:
+  default_config_hash: 5sxIkFTznkX0b1s78CseNy6yPESNGIbv4jC4SYNx54I
+langcode: en
+corporate_site_link:
+  href: 'https://commission.europa.eu/index_en'
+  label: 'European Commission website'
+class_navigation:
+  -
+    href: 'https://commission.europa.eu/strategy_en'
+    label: Strategy
+  -
+    href: 'https://commission.europa.eu/about-european-commission_en'
+    label: 'About the European Commission'
+  -
+    href: 'https://commission.europa.eu/business-economy-euro_en'
+    label: 'Business, Economy, Euro'
+  -
+    href: 'https://commission.europa.eu/live-work-travel-eu_en'
+    label: 'Live, work, travel in the EU'
+  -
+    href: 'https://commission.europa.eu/law_en'
+    label: Law
+  -
+    href: 'https://commission.europa.eu/funding-tenders_en'
+    label: 'Funding, Tenders'
+  -
+    href: 'https://commission.europa.eu/research-and-innovation_en'
+    label: 'Research and innovation'
+  -
+    href: 'https://commission.europa.eu/energy-climate-change-environment_en'
+    label: 'Energy, Climate change, Environment'
+  -
+    href: 'https://commission.europa.eu/education_en'
+    label: Education
+  -
+    href: 'https://commission.europa.eu/aid-development-cooperation-fundamental-rights_en'
+    label: 'Aid, Development cooperation, Fundamental rights'
+  -
+    href: 'https://commission.europa.eu/food-farming-fisheries_en'
+    label: 'Food, Farming, Fisheries'
+  -
+    href: 'https://commission.europa.eu/eu-regional-and-urban-development_en'
+    label: 'EU regional and urban development'
+  -
+    href: 'https://commission.europa.eu/jobs-european-commission_en'
+    label: 'Jobs at the European Commission'
+  -
+    href: 'https://commission.europa.eu/statistics_en'
+    label: Statistics
+  -
+    href: 'https://ec.europa.eu/commission/presscorner/home/en'
+    label: News
+  -
+    href: 'https://commission.europa.eu/events_en'
+    label: Events
+  -
+    href: 'https://commission.europa.eu/publications_en'
+    label: Publications
+service_navigation:
+  -
+    href: 'https://commission.europa.eu/about-european-commission/contact_en'
+    label: 'Contact the European Commission'
+  -
+    branding: core
+    href: 'https://commission.europa.eu/accessibility-statement_en'
+    label: Accessibility
+  -
+    external: false
+    href: 'https://european-union.europa.eu/contact-eu/social-media-channels_en#/search?page=0&institutions=european_commission'
+    label: 'Follow the European Commission on social media'
+  -
+    href: 'https://commission.europa.eu/resources-partners_en'
+    label: 'Resources for partners'
+legal_navigation:
+  -
+    href: 'https://commission.europa.eu/languages-our-websites_en'
+    label: 'Languages on our websites'
+  -
+    href: 'https://commission.europa.eu/cookies_en'
+    label: Cookies
+  -
+    href: 'https://commission.europa.eu/privacy-policy_en'
+    label: 'Privacy policy'
+  -
+    href: 'https://commission.europa.eu/legal-notice_en'
+    label: 'Legal notice'

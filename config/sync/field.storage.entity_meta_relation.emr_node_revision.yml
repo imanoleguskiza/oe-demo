@@ -1,0 +1,23 @@
+uuid: b33beceb-ab50-4f95-9e8a-2b1e2fe8cfa3
+langcode: en
+status: true
+dependencies:
+  module:
+    - emr
+    - entity_reference_revisions
+    - node
+_core:
+  default_config_hash: _IpO8_3ecfhTMUO3GBQdtcmNIzYZoksR2rWIN0ujfe0
+id: entity_meta_relation.emr_node_revision
+field_name: emr_node_revision
+entity_type: entity_meta_relation
+type: entity_reference_revisions
+settings:
+  target_type: node
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

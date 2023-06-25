@@ -1,0 +1,22 @@
+uuid: a013bc09-5971-4f3c-8958-f27fb4a2ec51
+langcode: en
+status: true
+dependencies:
+  module:
+    - emr
+    - oe_list_pages
+third_party_settings:
+  oe_list_pages:
+    default_filter_values_allowed: true
+  emr:
+    entity_meta_bundles:
+      - oe_list_page
+_core:
+  default_config_hash: 7a7DOb1zHYYm4Mk-eejpltBlNsLfGxadK4SF6cksYyQ
+name: 'List page'
+type: oe_list_page
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

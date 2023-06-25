@@ -1,0 +1,32 @@
+uuid: 39498eba-9bb6-47de-9653-2e3e7f2473e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - emr.entity_meta_relation_type.node_meta_relation
+    - field.storage.entity_meta_relation.emr_node_revision
+    - node.type.oe_list_page
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: Buamdg3u4V5M7n6A40_lNQJwGM0OMtm_N8wO5bZwJ_o
+id: entity_meta_relation.node_meta_relation.emr_node_revision
+field_name: emr_node_revision
+entity_type: entity_meta_relation
+bundle: node_meta_relation
+label: 'Node revision'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      - oe_list_page
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference_revisions

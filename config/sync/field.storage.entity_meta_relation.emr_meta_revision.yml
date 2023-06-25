@@ -1,0 +1,22 @@
+uuid: a9f6c834-1d9f-4d87-8227-634d124f5e54
+langcode: en
+status: true
+dependencies:
+  module:
+    - emr
+    - entity_reference_revisions
+_core:
+  default_config_hash: towFO61DWHoGiL1jIYgMYKiDVVo3Y58mQwdCkz1m9TU
+id: entity_meta_relation.emr_meta_revision
+field_name: emr_meta_revision
+entity_type: entity_meta_relation
+type: entity_reference_revisions
+settings:
+  target_type: entity_meta
+module: entity_reference_revisions
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,8 @@
+uuid: ec6e8aed-0580-4823-aa4c-706eac2500db
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LQhY9xv3H0VtQwzpiO1bNpEvNJSCeC6RhFs1GMg7IU8
+id: oe_list_page
+label: 'List Page'
