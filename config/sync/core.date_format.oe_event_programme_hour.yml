@@ -1,0 +1,10 @@
+uuid: 61b78145-db4a-44a4-a4f8-d72f6691870f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zlBNBWYuifHxBS07gL9XbA3FD65MYA5a-m-ocNu8RxA
+id: oe_event_programme_hour
+label: 'Event programme hour'
+locked: false
+pattern: 'h:i A'

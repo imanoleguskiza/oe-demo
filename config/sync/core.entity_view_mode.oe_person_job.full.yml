@@ -1,0 +1,12 @@
+uuid: 509896f6-e1db-4a24-ab13-fcd867c5a7b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_person
+_core:
+  default_config_hash: ASrnTVNXzM8rZS5HltpfJFkR-92_Z_4NbywRQbVjxoU
+id: oe_person_job.full
+label: Full
+targetEntityType: oe_person_job
+cache: true

@@ -1,0 +1,12 @@
+uuid: f8038435-aa77-4daa-9e89-71782e2701d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_contact
+_core:
+  default_config_hash: D10Bp4jlY8wbIp0fewDpm4IPjiL6Tw2LGxgtINEtQ48
+id: oe_contact.full
+label: Full
+targetEntityType: oe_contact
+cache: true

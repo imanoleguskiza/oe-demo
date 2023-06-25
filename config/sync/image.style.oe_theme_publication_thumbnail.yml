@@ -1,0 +1,17 @@
+uuid: c7532620-7b64-4ea2-a13a-04c609be4362
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PZOEXArR9blpKeyOigDpxMNSKWW1QZufEEFP1eX47Dc
+name: oe_theme_publication_thumbnail
+label: 'Publication thumbnail'
+effects:
+  44898002-78b0-4133-acb6-c08d5c208e01:
+    uuid: 44898002-78b0-4133-acb6-c08d5c208e01
+    id: image_scale
+    weight: 1
+    data:
+      width: 192
+      height: 192
+      upscale: false

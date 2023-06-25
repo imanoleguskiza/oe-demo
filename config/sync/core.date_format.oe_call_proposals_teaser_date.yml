@@ -1,0 +1,10 @@
+uuid: 0aa048c1-0904-4abb-86b9-f0e9594cf035
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: s-eV14bxPOE2UXbpxjh2Bs_0psgvG2OJXsQD1Sa3WH8
+id: oe_call_proposals_teaser_date
+label: 'Call for proposals teaser date'
+locked: false
+pattern: 'j F Y'

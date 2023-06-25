@@ -1,0 +1,30 @@
+uuid: 9717927f-fc01-4375-a3d5-637e423c7872
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.oe_document_reference.full
+    - field.field.oe_document_reference.oe_document.oe_document
+    - oe_content_sub_entity_document_reference.oe_document_reference_type.oe_document
+_core:
+  default_config_hash: VH5r_waIZ3MlnGAQeQUMhmGKOZQtJFCBsYJ2K8uNmLU
+id: oe_document_reference.oe_document.full
+targetEntityType: oe_document_reference
+bundle: oe_document
+mode: full
+content:
+  oe_document:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  status: true

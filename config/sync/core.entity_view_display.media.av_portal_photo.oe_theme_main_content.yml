@@ -1,0 +1,33 @@
+uuid: 894645de-186b-4153-8c43-fe9e9aec6a3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.oe_theme_main_content
+    - field.field.media.av_portal_photo.oe_media_avportal_photo
+    - media.type.av_portal_photo
+    - responsive_image.styles.oe_theme_main_content
+  module:
+    - media_avportal
+_core:
+  default_config_hash: GG1RkiuBNxlBzuTJOap9pqCclQcP-FW97EpLDXyGs8U
+id: media.av_portal_photo.oe_theme_main_content
+targetEntityType: media
+bundle: av_portal_photo
+mode: oe_theme_main_content
+content:
+  oe_media_avportal_photo:
+    weight: 0
+    label: hidden
+    settings:
+      responsive_image_style: oe_theme_main_content
+    third_party_settings: {  }
+    type: avportal_photo_responsive
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,10 @@
+uuid: 8e6d4321-dbeb-4c1b-8252-9845936ee90d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pAKqkQBAkCFLgyUEmff01BQneduDOvzQ0s8twM6KDQw
+id: oe_event_programme_date_hour_timezone
+label: 'Event programme date with hour with timezone'
+locked: false
+pattern: 'j M Y, h:i A T'

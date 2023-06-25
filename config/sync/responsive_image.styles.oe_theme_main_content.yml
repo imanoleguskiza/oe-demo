@@ -1,0 +1,38 @@
+uuid: 3e1712ae-fde2-4d6d-8078-f5d384051e0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.oe_theme_medium_2x_no_crop
+    - image.style.oe_theme_medium_no_crop
+    - image.style.oe_theme_small_2x_no_crop
+    - image.style.oe_theme_small_no_crop
+  theme:
+    - oe_theme
+_core:
+  default_config_hash: 4OBFe5LuKIUyskq25gjg3i-iMk2A1WlA1LTo9ihYEdI
+id: oe_theme_main_content
+label: 'Main content'
+image_style_mappings:
+  -
+    breakpoint_id: oe_theme.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: oe_theme_medium_no_crop
+  -
+    breakpoint_id: oe_theme.medium
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: oe_theme_medium_2x_no_crop
+  -
+    breakpoint_id: oe_theme.extra_small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: oe_theme_small_no_crop
+  -
+    breakpoint_id: oe_theme.extra_small
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: oe_theme_small_2x_no_crop
+breakpoint_group: oe_theme
+fallback_image_style: oe_theme_medium_no_crop

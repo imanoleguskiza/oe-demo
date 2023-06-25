@@ -1,0 +1,12 @@
+uuid: 88dc7112-5775-4de8-bab5-6f1d16d461cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_person
+_core:
+  default_config_hash: TbSCINL7VpBSu0slB1pAxQW57n243vyAo6pZg47qd00
+id: oe_person_job.description_only
+label: 'Description only'
+targetEntityType: oe_person_job
+cache: true

@@ -1,0 +1,10 @@
+uuid: b26a09cb-c75e-4f72-8b2d-c404c46d3cae
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vJCxM1UkQZ3DNcxdftAK30p8HOTLiwZK3P8Vvx4WrNc
+id: oe_event_programme_date
+label: 'Event programme date'
+locked: false
+pattern: 'j M Y'

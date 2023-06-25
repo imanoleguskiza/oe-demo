@@ -1,0 +1,10 @@
+uuid: 57756675-044e-42d2-80f1-93878b132203
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MURqveWp6V0-UbPfxnoqbgO9RG5tSHYXSGyci-MVVqU
+id: oe_call_proposals_date_full_timezone
+label: 'Call for proposals timezone date'
+locked: false
+pattern: 'd F Y, H:i (T)'

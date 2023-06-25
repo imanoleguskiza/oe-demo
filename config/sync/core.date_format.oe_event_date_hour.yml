@@ -1,0 +1,10 @@
+uuid: aa4da850-8730-48d9-9c71-973766817d54
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YIw7N_3rEtPlBrKuDSu2HyTV_zAtTCbjeka97FxnQZ4
+id: oe_event_date_hour
+label: 'Event date with hour'
+locked: false
+pattern: 'j F Y, H:i'

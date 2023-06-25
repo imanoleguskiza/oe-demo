@@ -1,0 +1,10 @@
+uuid: ddab3072-50bf-4774-8536-298186bf3e83
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ZW9J2fSwSi8rJQPU3p74voTgYMiKROCXlornetARRoI
+id: oe_call_tenders_date_full_timezone
+label: 'Call for tenders timezone date'
+locked: false
+pattern: 'd F Y, H:i (T)'

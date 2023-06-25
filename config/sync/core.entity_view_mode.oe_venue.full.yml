@@ -1,0 +1,12 @@
+uuid: 6726c745-80a2-4d39-a1fa-7323d3333e58
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_venue
+_core:
+  default_config_hash: CTJXcbSw-BllPXmggZEQHUhf2sEvE1LDquBsAZwpOcg
+id: oe_venue.full
+label: Full
+targetEntityType: oe_venue
+cache: true

@@ -1,0 +1,10 @@
+uuid: 47f76945-ceda-4d33-ad9a-d188bd8dbcf9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dBc91HRZ8CHwaPf9JBuaC2NJ_tfyiCu9BKtvt1thLC8
+id: oe_event_long_date_hour_timezone
+label: 'Event long date with hour and timezone'
+locked: false
+pattern: 'l j F Y, H:i T'

@@ -1,0 +1,10 @@
+uuid: 9dce9b8e-4e87-4e34-8874-31cc8c22ca4e
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uemAoUWmCX0LAnsUIXikEIskV4EBKrUzRn3fpIg_fLU
+id: oe_call_proposals_date_long
+label: 'Call for proposals long date'
+locked: false
+pattern: 'd F Y'

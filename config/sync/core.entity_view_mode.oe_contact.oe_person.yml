@@ -1,0 +1,12 @@
+uuid: c01996ed-76f9-4c50-8d33-43915570dc23
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_content_entity_contact
+_core:
+  default_config_hash: vSSxyTbqD2X47pV49QfC7_UCBeC3oOIjWjALTwQbFhQ
+id: oe_contact.oe_person
+label: Person
+targetEntityType: oe_contact
+cache: true

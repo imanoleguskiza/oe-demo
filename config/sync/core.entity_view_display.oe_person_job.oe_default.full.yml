@@ -1,0 +1,37 @@
+uuid: 6ef3d1f6-0b49-43e1-a09d-00e18d4fd293
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.oe_person_job.full
+    - field.field.oe_person_job.oe_default.oe_acting
+    - field.field.oe_person_job.oe_default.oe_description
+    - field.field.oe_person_job.oe_default.oe_role_name
+    - field.field.oe_person_job.oe_default.oe_role_reference
+    - oe_content_person.oe_person_job_type.oe_default
+  module:
+    - text
+_core:
+  default_config_hash: yS-D-SukRnQi1JpQ3xabKRLhl0ZByDaeEqPd5LTrjHc
+id: oe_person_job.oe_default.full
+targetEntityType: oe_person_job
+bundle: oe_default
+mode: full
+content:
+  extra_field_oe_theme_content_person_job_label:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  oe_description:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  oe_acting: true
+  oe_role_name: true
+  oe_role_reference: true
+  search_api_excerpt: true
