@@ -9,7 +9,11 @@ dependencies:
   module:
     - image
     - media_avportal
+    - oe_oembed
     - user
+third_party_settings:
+  oe_oembed:
+    embeddable: false
 _core:
   default_config_hash: RHDrMsUazV-WBQpSBcWD6X2aj-6DJ83-0kuAOkeqL-8
 id: media.av_portal_video.default
@@ -18,10 +22,8 @@ bundle: av_portal_video
 mode: default
 content:
   created:
-    label: hidden
     type: timestamp
-    weight: 0
-    region: content
+    label: hidden
     settings:
       date_format: medium
       custom_date_format: ''
@@ -36,31 +38,36 @@ content:
         granularity: 2
         refresh: 60
     third_party_settings: {  }
+    weight: 0
+    region: content
   oe_media_avportal_video:
-    weight: 6
+    type: avportal_video
     label: hidden
     settings:
       max_width: 640
       max_height: 390
     third_party_settings: {  }
-    type: avportal_video
+    weight: 6
     region: content
   thumbnail:
     type: image
-    weight: 5
     label: hidden
     settings:
-      image_style: thumbnail
       image_link: ''
-    region: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
-  uid:
-    label: hidden
-    type: author
-    weight: 0
+    weight: 5
     region: content
+  uid:
+    type: author
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   langcode: true
   name: true
+  search_api_excerpt: true

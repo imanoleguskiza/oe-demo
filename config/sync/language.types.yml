@@ -10,21 +10,34 @@ configurable:
 negotiation:
   language_content:
     enabled:
-      language-url: -19
+      oe-multilingual-url-suffix-negotiation-method: -10
       language-selected: 20
     method_weights:
       language-url: -19
+      oe-multilingual-url-suffix-negotiation-method: -10
+      language-content-entity: -9
+      language-session: -6
+      language-user: -4
+      language-browser: -2
+      language-interface: 9
       language-selected: 20
   language_url:
     enabled:
-      language-url: 0
+      oe-multilingual-url-suffix-negotiation-method: 0
       language-url-fallback: 1
   language_interface:
     enabled:
       language-admin: -20
-      language-url: -19
-      language-selected: 20
+      oe-multilingual-url-suffix-negotiation-method: -19
+      language-selection-page: -18
+      language-selected: -12
     method_weights:
       language-admin: -20
-      language-url: -19
-      language-selected: 20
+      language-selection-page: -18
+      oe-multilingual-url-suffix-negotiation-method: -19
+      language-user-admin: -17
+      language-url: -16
+      language-session: -15
+      language-user: -14
+      language-browser: -13
+      language-selected: -12

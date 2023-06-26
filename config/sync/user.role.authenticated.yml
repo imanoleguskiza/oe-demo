@@ -2,7 +2,10 @@ uuid: 0070a2a1-5685-4191-91d1-c9401a43dd75
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.rich_text
   module:
+    - filter
     - media
     - system
 _core:
@@ -13,4 +16,5 @@ weight: 1
 is_admin: false
 permissions:
   - 'access content'
+  - 'use text format rich_text'
   - 'view media'

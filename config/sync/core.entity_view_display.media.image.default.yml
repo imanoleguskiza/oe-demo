@@ -7,6 +7,10 @@ dependencies:
     - media.type.image
   module:
     - image
+    - oe_oembed
+third_party_settings:
+  oe_oembed:
+    embeddable: false
 _core:
   default_config_hash: Io7rEAP7BEHAdpaOQIYMsl7N7Cpqh8MHlFFOf-jQbfI
 id: media.image.default
@@ -16,16 +20,19 @@ mode: default
 content:
   oe_media_image:
     type: image
-    weight: 0
-    region: content
     label: hidden
     settings:
-      image_style: ''
       image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
   langcode: true
   name: true
+  search_api_excerpt: true
   thumbnail: true
   uid: true

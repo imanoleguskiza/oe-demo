@@ -1,16 +1,16 @@
-uuid: 364293cd-ee4c-4195-8f42-798cff08817e
+uuid: e909d36a-550a-4370-b512-6645c53a9ae3
 langcode: en
 status: true
 dependencies: {  }
-id: subject
-name: Subject
-weight: -2
+id: publication_date
+name: 'Publication date'
+weight: 0
 min_count: 1
 missing: false
 missing_label: others
-url_alias: subject
+url_alias: publication_date
 facet_source_id: 'list_facet_source:node:oe_news'
-field_identifier: oe_subject
+field_identifier: oe_publication_date
 query_operator: or
 hard_limit: 0
 exclude: false
@@ -22,9 +22,9 @@ hierarchy:
 expand_hierarchy: false
 enable_parent_when_child_gets_disabled: true
 widget:
-  type: oe_list_pages_multiselect
+  type: oe_list_pages_date
   config:
-    show_numbers: false
+    date_type: date
 empty_behavior:
   behavior: none
 only_visible_when_facet_source_is_visible: true
@@ -53,11 +53,6 @@ processor_configs:
     processor_id: hierarchy_processor
     weights:
       build: 100
-    settings: {  }
-  translate_entity:
-    processor_id: translate_entity
-    weights:
-      build: 5
     settings: {  }
   url_processor_handler:
     processor_id: url_processor_handler

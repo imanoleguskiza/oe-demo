@@ -1,0 +1,9 @@
+uuid: c1c2e936-cc12-438b-a290-e2287d5054fb
+langcode: en
+status: true
+dependencies: {  }
+id: list_facet_source__node__oe_news
+name: 'list_facet_source:node:oe_news'
+filter_key: null
+url_processor: query_string
+breadcrumb: {  }

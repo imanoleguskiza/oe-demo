@@ -3,11 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.rich_text
     - media.type.webtools_chart
     - media.type.webtools_map
     - media.type.webtools_social_feed
     - node.type.oe_demo_landing_page
   module:
+    - filter
     - media
     - node
     - oe_content_entity_contact
@@ -41,6 +43,7 @@ permissions:
   - 'edit own oe_demo_landing_page content'
   - 'revert all revisions'
   - 'revert oe_demo_landing_page revisions'
+  - 'use text format rich_text'
   - 'view all revisions'
   - 'view oe_demo_landing_page revisions'
   - 'view own unpublished content'

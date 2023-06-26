@@ -8,6 +8,10 @@ dependencies:
     - media.type.av_portal_video
   module:
     - media_avportal
+    - oe_oembed
+third_party_settings:
+  oe_oembed:
+    embeddable: true
 _core:
   default_config_hash: i88xUstGirUM7fSsP3mIKs6OXgZXrADEUdDS-rAHt-w
 id: media.av_portal_video.oe_theme_main_content
@@ -16,13 +20,13 @@ bundle: av_portal_video
 mode: oe_theme_main_content
 content:
   oe_media_avportal_video:
-    weight: 0
+    type: avportal_video
     label: hidden
     settings:
       max_width: 576
       max_height: 324
     third_party_settings: {  }
-    type: avportal_video
+    weight: 0
     region: content
 hidden:
   created: true

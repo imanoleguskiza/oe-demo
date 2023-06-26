@@ -3,9 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.rich_text
     - workflows.workflow.oe_corporate_workflow
   module:
     - content_moderation
+    - filter
     - node
 _core:
   default_config_hash: Z8nzyez7V0e7iw1PryUDBledg8ggMooilwPFztEalYw
@@ -23,6 +25,7 @@ permissions:
   - 'use oe_corporate_workflow transition request_validation_to_draft'
   - 'use oe_corporate_workflow transition validated_to_draft'
   - 'use oe_corporate_workflow transition validated_to_published'
+  - 'use text format rich_text'
   - 'view all revisions'
   - 'view any unpublished content'
   - 'view latest version'

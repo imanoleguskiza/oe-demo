@@ -8,7 +8,11 @@ dependencies:
     - media.type.image
     - responsive_image.styles.oe_theme_main_content
   module:
+    - oe_oembed
     - responsive_image
+third_party_settings:
+  oe_oembed:
+    embeddable: true
 _core:
   default_config_hash: XLPgTwr-fBPJPAkCVpFJX_m1ksDJnP-Mlivk3cG0FsI
 id: media.image.oe_theme_main_content
@@ -18,8 +22,6 @@ mode: oe_theme_main_content
 content:
   oe_media_image:
     type: responsive_image
-    weight: 0
-    region: content
     label: hidden
     settings:
       responsive_image_style: oe_theme_main_content
@@ -27,6 +29,8 @@ content:
       image_loading:
         attribute: eager
     third_party_settings: {  }
+    weight: 0
+    region: content
 hidden:
   created: true
   langcode: true

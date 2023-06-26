@@ -2,6 +2,18 @@ uuid: 66028d6b-953e-4d43-b852-e6372d4706ad
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.oe_call_proposals
+    - node.type.oe_call_tenders
+    - node.type.oe_consultation
+    - node.type.oe_event
+    - node.type.oe_news
+    - node.type.oe_organisation
+    - node.type.oe_page
+    - node.type.oe_person
+    - node.type.oe_policy
+    - node.type.oe_project
+    - node.type.oe_publication
   module:
     - content_moderation
     - entity_version_workflows
@@ -155,4 +167,17 @@ type_settings:
         - validated
       to: published
       weight: 1
-  entity_types: {  }
+  entity_types:
+    node:
+      - oe_call_proposals
+      - oe_call_tenders
+      - oe_consultation
+      - oe_event
+      - oe_news
+      - oe_organisation
+      - oe_page
+      - oe_person
+      - oe_policy
+      - oe_project
+      - oe_publication
+  default_moderation_state: draft

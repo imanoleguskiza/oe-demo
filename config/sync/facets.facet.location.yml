@@ -1,16 +1,16 @@
-uuid: 364293cd-ee4c-4195-8f42-798cff08817e
+uuid: d312ca9f-2eed-45ab-b965-b522f30d78a8
 langcode: en
 status: true
 dependencies: {  }
-id: subject
-name: Subject
-weight: -2
+id: location
+name: Location
+weight: -1
 min_count: 1
 missing: false
 missing_label: others
-url_alias: subject
+url_alias: location
 facet_source_id: 'list_facet_source:node:oe_news'
-field_identifier: oe_subject
+field_identifier: oe_news_location
 query_operator: or
 hard_limit: 0
 exclude: false

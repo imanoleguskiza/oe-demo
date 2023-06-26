@@ -9,6 +9,10 @@ dependencies:
     - responsive_image.styles.oe_theme_main_content
   module:
     - media_avportal
+    - oe_oembed
+third_party_settings:
+  oe_oembed:
+    embeddable: true
 _core:
   default_config_hash: GG1RkiuBNxlBzuTJOap9pqCclQcP-FW97EpLDXyGs8U
 id: media.av_portal_photo.oe_theme_main_content
@@ -17,12 +21,12 @@ bundle: av_portal_photo
 mode: oe_theme_main_content
 content:
   oe_media_avportal_photo:
-    weight: 0
+    type: avportal_photo_responsive
     label: hidden
     settings:
       responsive_image_style: oe_theme_main_content
     third_party_settings: {  }
-    type: avportal_photo_responsive
+    weight: 0
     region: content
 hidden:
   created: true

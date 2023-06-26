@@ -1,10 +1,11 @@
-uuid: a354a68f-fe9a-480c-8bc3-db9cecb42e20
+uuid: 339fbcff-b30a-492d-87b8-751f33db4d16
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.webtools_countdown.oe_media_webtools
-    - media.type.webtools_countdown
+    - core.entity_view_mode.media.oe_theme_main_content
+    - field.field.media.webtools_chart.oe_media_webtools
+    - media.type.webtools_chart
   module:
     - oe_oembed
     - oe_webtools
@@ -12,11 +13,11 @@ third_party_settings:
   oe_oembed:
     embeddable: true
 _core:
-  default_config_hash: LBsKqkesB7Ytv4lx6oc0ngdKqaxnGN6mMiUfelDKYhg
-id: media.webtools_countdown.default
+  default_config_hash: NAgjCBzFimM9W0slBUZYkJyP55AaDuKSDOnkIiipUc4
+id: media.webtools_chart.oe_theme_main_content
 targetEntityType: media
-bundle: webtools_countdown
-mode: default
+bundle: webtools_chart
+mode: oe_theme_main_content
 content:
   oe_media_webtools:
     type: webtools_snippet

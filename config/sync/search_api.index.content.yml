@@ -21,13 +21,6 @@ name: Content
 description: ''
 read_only: false
 field_settings:
-  node_grants:
-    label: 'Node access information'
-    property_path: search_api_node_grants
-    type: string
-    indexed_locked: true
-    type_locked: true
-    hidden: true
   oe_news_last_updated:
     label: 'Last update date'
     datasource_id: 'entity:node'
@@ -73,8 +66,6 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: status
     type: boolean
-    indexed_locked: true
-    type_locked: true
     dependencies:
       module:
         - node
@@ -91,8 +82,6 @@ field_settings:
     datasource_id: 'entity:node'
     property_path: uid
     type: integer
-    indexed_locked: true
-    type_locked: true
     dependencies:
       module:
         - node
@@ -109,30 +98,8 @@ datasource_settings:
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
-  content_access:
-    weights:
-      preprocess_query: -30
   entity_status: {  }
   entity_type: {  }
-  ignore_character:
-    weights:
-      preprocess_index: -10
-      preprocess_query: -10
-    all_fields: true
-    fields:
-      - oe_news_location
-      - oe_news_types
-      - oe_subject
-      - title
-    ignorable: "['¿¡!?,.:;]"
-    ignorable_classes:
-      - Pc
-      - Pd
-      - Pe
-      - Pf
-      - Pi
-      - Po
-      - Ps
   ignorecase:
     weights:
       preprocess_index: -20
