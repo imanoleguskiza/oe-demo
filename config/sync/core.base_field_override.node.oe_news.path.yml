@@ -1,0 +1,20 @@
+uuid: 049afdbf-0fe6-4034-944c-af937f0e8087
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_news
+  module:
+    - path
+id: node.oe_news.path
+field_name: path
+entity_type: node
+bundle: oe_news
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

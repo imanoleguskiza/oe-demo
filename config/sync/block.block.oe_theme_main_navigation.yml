@@ -2,6 +2,10 @@ uuid: 03dd36f6-026f-49c3-b4f1-8506f05ff0e0
 langcode: en
 status: true
 dependencies:
+  config:
+    - system.menu.main
+  module:
+    - oe_theme_helper
   theme:
     - oe_theme
 _core:

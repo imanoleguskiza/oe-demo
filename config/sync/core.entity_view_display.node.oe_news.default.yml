@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.oe_news.body
+    - field.field.node.oe_news.field_version
     - field.field.node.oe_news.oe_author
     - field.field.node.oe_news.oe_departments
     - field.field.node.oe_news.oe_news_contacts
@@ -21,9 +22,14 @@ dependencies:
     - node.type.oe_news
   module:
     - entity_reference_revisions
+    - entity_version
     - link
+    - oe_oembed
     - text
     - user
+third_party_settings:
+  oe_oembed:
+    embeddable: false
 _core:
   default_config_hash: cPZ1lIebed8jJ2OQa3-oIg8BC3VfaJe4gG4SGcuyQzs
 id: node.oe_news.default
@@ -32,31 +38,49 @@ bundle: oe_news
 mode: default
 content:
   body:
-    label: hidden
     type: text_default
-    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
+    region: content
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  extra_field_oe_theme_content_news_date:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_version:
+    type: entity_version
+    label: above
+    settings:
+      minimum_category: patch
+    third_party_settings: {  }
+    weight: 8
     region: content
   oe_content_short_title:
     type: string
-    weight: 4
-    region: content
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 4
+    region: content
   oe_news_contacts:
     type: entity_reference_revisions_entity_view
-    weight: 1
-    region: content
     label: above
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 1
+    region: content
   oe_news_sources:
-    weight: 7
+    type: link
     label: hidden
     settings:
       trim_length: null
@@ -65,20 +89,18 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
-    type: link
+    weight: 7
     region: content
   oe_reference_code:
-    weight: 3
+    type: string
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
+    weight: 3
     region: content
   oe_related_links:
     type: link
-    weight: 2
-    region: content
     label: hidden
     settings:
       trim_length: null
@@ -87,21 +109,24 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
+    weight: 2
+    region: content
   oe_summary:
     type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
     weight: 5
     region: content
-    label: above
-    settings: {  }
-    third_party_settings: {  }
   oe_teaser:
     type: text_default
-    weight: 6
-    region: content
     label: above
     settings: {  }
     third_party_settings: {  }
+    weight: 6
+    region: content
 hidden:
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true
   links: true
   oe_author: true
@@ -115,3 +140,4 @@ hidden:
   oe_news_types: true
   oe_publication_date: true
   oe_subject: true
+  search_api_excerpt: true

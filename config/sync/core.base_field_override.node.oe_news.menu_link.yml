@@ -1,0 +1,20 @@
+uuid: 3c735f43-003e-4f6f-bb02-108cba890b02
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_news
+id: node.oe_news.menu_link
+field_name: menu_link
+entity_type: node
+bundle: oe_news
+label: 'Menu link'
+description: 'Computed menu link for the node (only available during node saving).'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

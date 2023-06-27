@@ -16,7 +16,7 @@ bundle: oe_news
 label: 'Publication date'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     default_date_type: now

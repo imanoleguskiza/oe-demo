@@ -1,0 +1,22 @@
+uuid: e5fcd86d-5f5f-488b-b218-1fb9b60f8655
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_proposals
+id: node.oe_call_proposals.promote
+field_name: promote
+entity_type: node
+bundle: oe_call_proposals
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: f644266b-a980-4037-a49b-416c622b4e59
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_generic
+  module:
+    - path
+id: media.webtools_generic.path
+field_name: path
+entity_type: media
+bundle: webtools_generic
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

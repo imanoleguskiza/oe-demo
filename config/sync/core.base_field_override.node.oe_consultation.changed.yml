@@ -1,0 +1,18 @@
+uuid: 8f25e015-c862-40bf-a517-8a4b90c76573
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_consultation
+id: node.oe_consultation.changed
+field_name: changed
+entity_type: node
+bundle: oe_consultation
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

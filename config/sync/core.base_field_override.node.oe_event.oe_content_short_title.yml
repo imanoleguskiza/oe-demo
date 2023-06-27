@@ -1,0 +1,18 @@
+uuid: 50cc5934-8456-40ce-a1fa-fcf0ad38b7f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_event
+id: node.oe_event.oe_content_short_title
+field_name: oe_content_short_title
+entity_type: node
+bundle: oe_event
+label: 'Alternative title'
+description: 'Use this field to create an alternative title for use in the URL and in list views. If the page title is longer than 60 characters, you can add a shorter title here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

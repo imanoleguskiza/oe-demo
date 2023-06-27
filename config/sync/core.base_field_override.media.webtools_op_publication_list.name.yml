@@ -1,0 +1,20 @@
+uuid: 882295c9-cd9b-4895-92d7-64e7d90ddb59
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_op_publication_list
+id: media.webtools_op_publication_list.name
+field_name: name
+entity_type: media
+bundle: webtools_op_publication_list
+label: Name
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string

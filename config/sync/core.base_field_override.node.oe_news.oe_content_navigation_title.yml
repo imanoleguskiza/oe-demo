@@ -1,0 +1,18 @@
+uuid: 15fec72f-27ad-4693-b495-b41e4b8e1fd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_news
+id: node.oe_news.oe_content_navigation_title
+field_name: oe_content_navigation_title
+entity_type: node
+bundle: oe_news
+label: 'Navigation title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: 3413bf43-adfe-445a-8a1d-4f5b1748926f
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_map
+id: media.webtools_map.uid
+field_name: uid
+entity_type: media
+bundle: webtools_map
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

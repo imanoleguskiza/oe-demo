@@ -1,0 +1,18 @@
+uuid: 56bbbc26-90a5-4146-ad42-e847f1f28931
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_sub_entity_document_reference.oe_document_reference_type.oe_document
+id: oe_document_reference.oe_document.changed
+field_name: changed
+entity_type: oe_document_reference
+bundle: oe_document
+label: Changed
+description: 'The time that the list was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

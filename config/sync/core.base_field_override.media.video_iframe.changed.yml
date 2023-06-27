@@ -1,0 +1,18 @@
+uuid: a4386884-fc8d-46fe-befa-74ed223f8f89
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.video_iframe
+id: media.video_iframe.changed
+field_name: changed
+entity_type: media
+bundle: video_iframe
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

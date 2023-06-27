@@ -16,7 +16,7 @@ bundle: oe_news
 label: Subject
 description: 'The topics mentioned on this page. These will be used by search engines and dynamic lists to determine their relevance to a user.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

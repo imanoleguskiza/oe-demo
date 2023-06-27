@@ -1,0 +1,22 @@
+uuid: 69e350c4-10ad-4bfb-a202-61d9c1c05fce
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_project
+id: node.oe_project.promote
+field_name: promote
+entity_type: node
+bundle: oe_project
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,9 @@
+uuid: ee2e8895-22e7-4a0a-bb55-b329350c6134
+langcode: en
+status: true
+dependencies: {  }
+id: twitter
+label: Twitter
+url: 'http://twitter.com'
+weight: 0
+social_network: twitter

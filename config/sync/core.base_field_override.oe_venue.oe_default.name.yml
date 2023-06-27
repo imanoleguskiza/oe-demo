@@ -1,0 +1,18 @@
+uuid: b2edfdfa-0c7b-4c2d-9afa-c1701070dd2e
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_entity_venue.oe_venue_type.oe_default
+id: oe_venue.oe_default.name
+field_name: name
+entity_type: oe_venue
+bundle: oe_default
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

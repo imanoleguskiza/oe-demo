@@ -1,0 +1,23 @@
+uuid: d9d9630f-6aaa-4393-9184-1f3b8be34a04
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_new_vocab
+    - node.type.oe_demo_landing_page
+  module:
+    - rdf_skos
+id: node.oe_demo_landing_page.field_new_vocab
+field_name: field_new_vocab
+entity_type: node
+bundle: oe_demo_landing_page
+label: 'New vocab'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:skos_concept'
+  handler_settings: {  }
+field_type: skos_concept_entity_reference

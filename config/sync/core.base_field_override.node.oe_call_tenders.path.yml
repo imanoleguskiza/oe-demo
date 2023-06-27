@@ -1,0 +1,20 @@
+uuid: 9944ef1f-69e2-403c-a312-2cf27572e7b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+  module:
+    - path
+id: node.oe_call_tenders.path
+field_name: path
+entity_type: node
+bundle: oe_call_tenders
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

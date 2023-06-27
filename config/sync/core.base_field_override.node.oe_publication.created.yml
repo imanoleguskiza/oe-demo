@@ -1,0 +1,18 @@
+uuid: da4658a3-57b5-4073-a1c9-b1ba836f1876
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_publication
+id: node.oe_publication.created
+field_name: created
+entity_type: node
+bundle: oe_publication
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

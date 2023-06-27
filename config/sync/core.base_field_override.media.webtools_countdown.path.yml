@@ -1,0 +1,20 @@
+uuid: e019759a-e9e2-4cc8-860c-ad5d00171039
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_countdown
+  module:
+    - path
+id: media.webtools_countdown.path
+field_name: path
+entity_type: media
+bundle: webtools_countdown
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,22 @@
+uuid: 67ff374a-9a39-47a9-a316-fcdf8f51d7e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_list_page
+id: node.oe_list_page.status
+field_name: status
+entity_type: node
+bundle: oe_list_page
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

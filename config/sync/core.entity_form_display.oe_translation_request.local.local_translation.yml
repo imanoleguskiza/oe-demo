@@ -1,0 +1,18 @@
+uuid: 9b7e4fa7-b33a-43e6-a612-a0095591922d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.oe_translation_request.local_translation
+    - field.field.oe_translation_request.local.target_language
+    - oe_translation.oe_translation_request_type.local
+_core:
+  default_config_hash: r9Tf0LixfG3_jb2OfUpQcPw8bMtM1ZYqsfAqyGoz-ks
+id: oe_translation_request.local.local_translation
+targetEntityType: oe_translation_request
+bundle: local
+mode: local_translation
+content: {  }
+hidden:
+  request_status: true
+  target_language: true

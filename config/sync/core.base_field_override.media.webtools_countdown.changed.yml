@@ -1,0 +1,18 @@
+uuid: a2633e14-f419-4bec-ad15-9ab6807f9e32
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_countdown
+id: media.webtools_countdown.changed
+field_name: changed
+entity_type: media
+bundle: webtools_countdown
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,18 @@
+uuid: 230b47c5-5c75-4ae5-ad97-e8aff3e550fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_organisation
+id: node.oe_organisation.oe_content_navigation_title
+field_name: oe_content_navigation_title
+entity_type: node
+bundle: oe_organisation
+label: 'Navigation title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

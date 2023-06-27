@@ -1,0 +1,20 @@
+uuid: ecdfd1be-7c70-43b1-82de-fd7abe63591b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_news
+  module:
+    - emr
+id: node.oe_news.emr_entity_metas
+field_name: emr_entity_metas
+entity_type: node
+bundle: oe_news
+label: 'Entity metas'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: emr_item_entity_metas

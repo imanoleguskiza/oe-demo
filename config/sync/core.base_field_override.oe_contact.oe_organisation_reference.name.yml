@@ -1,0 +1,18 @@
+uuid: 5166b490-9e04-44ce-9799-90fd4dc58085
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_entity_contact.oe_contact_type.oe_organisation_reference
+id: oe_contact.oe_organisation_reference.name
+field_name: name
+entity_type: oe_contact
+bundle: oe_organisation_reference
+label: Name
+description: 'Name of office, organisation or person the contact details refer to.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

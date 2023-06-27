@@ -1,0 +1,8 @@
+uuid: 9aa1f795-458f-4d9f-b828-b303e1bae8d3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J8QmJO3lGl0I_TGEMaFHS7Oj3_U-XXEQqpNs4CmgZxY
+id: local
+label: Local

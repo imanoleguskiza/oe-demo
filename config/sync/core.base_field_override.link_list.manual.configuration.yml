@@ -1,0 +1,20 @@
+uuid: 6e9da360-0806-49cd-a4f0-7173f6e236d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_link_lists.link_list_type.manual
+  module:
+    - oe_link_lists
+id: link_list.manual.configuration
+field_name: configuration
+entity_type: link_list
+bundle: manual
+label: Configuration
+description: 'The list configuration.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: link_list_configuration

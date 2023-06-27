@@ -1,0 +1,20 @@
+uuid: 3eb8bca7-d859-4b52-bd77-557078834845
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_proposals
+id: node.oe_call_proposals.uid
+field_name: uid
+entity_type: node
+bundle: oe_call_proposals
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

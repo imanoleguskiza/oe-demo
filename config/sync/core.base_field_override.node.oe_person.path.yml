@@ -1,0 +1,20 @@
+uuid: c8153b75-81db-4c8b-95f7-c4a6e85f9170
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_person
+  module:
+    - path
+id: node.oe_person.path
+field_name: path
+entity_type: node
+bundle: oe_person
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

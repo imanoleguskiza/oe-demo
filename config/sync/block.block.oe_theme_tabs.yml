@@ -9,7 +9,7 @@ _core:
 id: oe_theme_tabs
 theme: oe_theme
 region: content
-weight: 1
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

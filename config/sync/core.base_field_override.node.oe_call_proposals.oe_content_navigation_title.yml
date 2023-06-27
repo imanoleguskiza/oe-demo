@@ -1,0 +1,18 @@
+uuid: 4e171353-cb0e-42ce-baec-b326bc8018df
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_proposals
+id: node.oe_call_proposals.oe_content_navigation_title
+field_name: oe_content_navigation_title
+entity_type: node
+bundle: oe_call_proposals
+label: 'Navigation title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

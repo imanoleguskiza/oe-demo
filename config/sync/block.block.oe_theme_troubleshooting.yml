@@ -1,0 +1,22 @@
+uuid: 4730045a-1b82-4704-b268-ca588755faf0
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.troubleshooting
+  module:
+    - oe_contact_forms
+  theme:
+    - oe_theme
+id: oe_theme_troubleshooting
+theme: oe_theme
+region: content
+weight: -1
+provider: null
+plugin: 'oe_contact_forms_corporate_block:a12c9a8b-abf2-4730-964c-21682bf25a48'
+settings:
+  id: 'oe_contact_forms_corporate_block:a12c9a8b-abf2-4730-964c-21682bf25a48'
+  label: Troubleshooting
+  label_display: visible
+  provider: oe_contact_forms
+visibility: {  }

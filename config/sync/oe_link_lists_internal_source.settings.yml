@@ -1,0 +1,15 @@
+allowed_entity_bundles:
+  media:
+    - document
+  node:
+    - oe_call_proposals
+    - oe_call_tenders
+    - oe_consultation
+    - oe_event
+    - oe_news
+    - oe_organisation
+    - oe_page
+    - oe_person
+    - oe_policy
+    - oe_project
+    - oe_publication

@@ -1,0 +1,18 @@
+uuid: 919284d0-0149-4a78-ba31-900a1d065194
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_countdown
+id: media.webtools_countdown.created
+field_name: created
+entity_type: media
+bundle: webtools_countdown
+label: 'Authored on'
+description: 'The time the media item was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created

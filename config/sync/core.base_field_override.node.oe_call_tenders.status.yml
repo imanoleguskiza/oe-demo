@@ -1,0 +1,22 @@
+uuid: e554a05c-11c0-4aa3-a3ca-b6ae1cca6eda
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+id: node.oe_call_tenders.status
+field_name: status
+entity_type: node
+bundle: oe_call_tenders
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

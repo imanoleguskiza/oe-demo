@@ -1,0 +1,10 @@
+uuid: e13dc6bf-5a57-4739-9c41-32c8dbeb2532
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: gYHxWEvpzu00g3lQiuVD3bFiRCS6Oyp68CcyqI8VXvA
+id: manual
+label: Manual
+configurable_link_source_plugins: false
+default_link_source: manual_links

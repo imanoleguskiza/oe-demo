@@ -1,0 +1,18 @@
+uuid: 0a1006b5-0174-4bae-8191-55602eb9a708
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_person
+id: node.oe_person.oe_content_navigation_title
+field_name: oe_content_navigation_title
+entity_type: node
+bundle: oe_person
+label: 'Navigation title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

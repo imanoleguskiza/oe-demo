@@ -1,0 +1,18 @@
+uuid: ae3987da-5345-4f59-9426-8d21727ecb6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+id: node.oe_call_tenders.oe_content_navigation_title
+field_name: oe_content_navigation_title
+entity_type: node
+bundle: oe_call_tenders
+label: 'Navigation title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

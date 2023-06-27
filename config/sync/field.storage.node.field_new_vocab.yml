@@ -1,0 +1,20 @@
+uuid: b4fd58b6-583f-44ea-8e41-41f8c50fbbd0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - rdf_skos
+id: node.field_new_vocab
+field_name: field_new_vocab
+entity_type: node
+type: skos_concept_entity_reference
+settings:
+  target_type: skos_concept
+module: rdf_skos
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

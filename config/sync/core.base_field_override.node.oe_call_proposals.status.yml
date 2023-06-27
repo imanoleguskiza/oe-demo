@@ -1,0 +1,22 @@
+uuid: b367a7dd-7592-446e-b6ef-686ffdc31642
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_proposals
+id: node.oe_call_proposals.status
+field_name: status
+entity_type: node
+bundle: oe_call_proposals
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

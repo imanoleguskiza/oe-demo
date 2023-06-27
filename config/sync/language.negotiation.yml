@@ -30,6 +30,7 @@ url:
     cs: cs
     bg: bg
     '': null
+    eu: eu
   domains:
     en: ''
     pt-pt: ''
@@ -55,4 +56,5 @@ url:
     da: ''
     cs: ''
     bg: ''
+    eu: ''
 selected_langcode: site_default

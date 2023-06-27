@@ -10,7 +10,7 @@ third_party_settings:
   content_translation:
     enabled: false
     bundle_settings:
-      untranslatable_fields_hide: '0'
+      untranslatable_fields_hide: '1'
 _core:
   default_config_hash: v_pMj5gMDgJEqAlfJlABfhikVHryK_9HiMh0ogEQxQY
 id: node.oe_person

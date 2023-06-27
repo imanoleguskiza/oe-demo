@@ -1,0 +1,12 @@
+uuid: a5c5479b-f5f0-478e-8040-196c3cf92352
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_translation
+_core:
+  default_config_hash: XYbC3pbXQQAGHOmPPDVF1wAIAY0J6Ve0J6x6A6gGdGQ
+id: oe_translation_request.local_translation
+label: 'Local translation'
+targetEntityType: oe_translation_request
+cache: true

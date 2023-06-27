@@ -16,7 +16,7 @@ bundle: oe_news
 label: 'News type'
 description: ''
 required: true
-translatable: false
+translatable: true
 default_value:
   -
     target_id: 'http://publications.europa.eu/resource/authority/resource-type/ARTICLE_NEWS'

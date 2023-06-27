@@ -1,0 +1,18 @@
+uuid: 6793514e-434b-4d71-969f-e49f4f8b4793
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_event_event_programme.oe_event_programme_type.oe_default
+id: oe_event_programme.oe_default.name
+field_name: name
+entity_type: oe_event_programme
+bundle: oe_default
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

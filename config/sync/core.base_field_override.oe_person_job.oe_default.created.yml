@@ -1,0 +1,18 @@
+uuid: d976a864-2967-485d-a29d-f40cfdeb056a
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_person.oe_person_job_type.oe_default
+id: oe_person_job.oe_default.created
+field_name: created
+entity_type: oe_person_job
+bundle: oe_default
+label: Created
+description: 'The time that the entity was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

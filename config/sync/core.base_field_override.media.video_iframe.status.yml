@@ -1,0 +1,22 @@
+uuid: 36f2fc40-27e3-49f3-bc05-7194b8c79987
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.video_iframe
+id: media.video_iframe.status
+field_name: status
+entity_type: media
+bundle: video_iframe
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

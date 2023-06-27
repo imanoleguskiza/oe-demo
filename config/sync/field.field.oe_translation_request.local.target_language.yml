@@ -1,0 +1,23 @@
+uuid: b3d80dba-383c-44bf-9ace-183e4d9fc685
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.oe_translation_request.target_language
+    - oe_translation.oe_translation_request_type.local
+  module:
+    - oe_translation
+_core:
+  default_config_hash: hBijMwULZVJQCdGRGTuACwS-dIqumHeMmhocWVrYo3g
+id: oe_translation_request.local.target_language
+field_name: target_language
+entity_type: oe_translation_request
+bundle: local
+label: 'Target language'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: oe_translation_language_with_status

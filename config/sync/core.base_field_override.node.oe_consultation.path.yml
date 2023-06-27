@@ -1,0 +1,20 @@
+uuid: 922736cb-4f9b-4d58-91ee-727ac840bc84
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_consultation
+  module:
+    - path
+id: node.oe_consultation.path
+field_name: path
+entity_type: node
+bundle: oe_consultation
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

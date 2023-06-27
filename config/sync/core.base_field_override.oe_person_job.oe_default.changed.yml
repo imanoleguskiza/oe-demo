@@ -1,0 +1,18 @@
+uuid: 6e583d54-df0a-480d-bcdc-8bba8182552f
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_person.oe_person_job_type.oe_default
+id: oe_person_job.oe_default.changed
+field_name: changed
+entity_type: oe_person_job
+bundle: oe_default
+label: Changed
+description: 'The time that the list was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

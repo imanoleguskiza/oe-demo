@@ -1,0 +1,18 @@
+uuid: f7752355-6393-44d9-ba65-31e2ebb0216f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_project
+id: node.oe_project.created
+field_name: created
+entity_type: node
+bundle: oe_project
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

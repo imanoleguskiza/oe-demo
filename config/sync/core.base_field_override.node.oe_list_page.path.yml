@@ -1,0 +1,20 @@
+uuid: 472b388a-5575-4565-87e7-c780c9ce5644
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_list_page
+  module:
+    - path
+id: node.oe_list_page.path
+field_name: path
+entity_type: node
+bundle: oe_list_page
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -3,10 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.oe_demo_landing_page.field_new_vocab
     - field.field.node.oe_demo_landing_page.field_oe_demo_body
     - node.type.oe_demo_landing_page
   module:
     - entity_reference_revisions
+    - rdf_skos
     - user
 _core:
   default_config_hash: bJ9XdqwEa0YTBfPLy-0ZkQps9Gl1FGutP3-EKPzKZqA
@@ -15,23 +17,33 @@ targetEntityType: node
 bundle: oe_demo_landing_page
 mode: default
 content:
+  field_new_vocab:
+    type: skos_concept_entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
   field_oe_demo_body:
     type: entity_reference_revisions_entity_view
-    weight: 101
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    weight: 101
     region: content
   links:
-    weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
+    weight: 100
+    region: content
 hidden:
+  extra_field_oe_theme_helper_short_title_with_fallback: true
   langcode: true
   oe_content_content_owner: true
   oe_content_legacy_link: true
   oe_content_navigation_title: true
   oe_content_short_title: true
+  search_api_excerpt: true

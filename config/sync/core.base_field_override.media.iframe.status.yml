@@ -1,0 +1,22 @@
+uuid: 025ad122-0258-4f69-8f78-c9852ecd2c4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.iframe
+id: media.iframe.status
+field_name: status
+entity_type: media
+bundle: iframe
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

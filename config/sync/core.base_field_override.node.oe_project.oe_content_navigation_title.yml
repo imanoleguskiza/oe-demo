@@ -1,0 +1,18 @@
+uuid: c814f5d1-e147-42b3-884a-39b3ff075588
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_project
+id: node.oe_project.oe_content_navigation_title
+field_name: oe_content_navigation_title
+entity_type: node
+bundle: oe_project
+label: 'Navigation title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

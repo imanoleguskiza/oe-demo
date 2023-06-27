@@ -1,0 +1,47 @@
+uuid: a12c9a8b-abf2-4730-964c-21682bf25a48
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+    - oe_contact_forms
+third_party_settings:
+  contact_storage:
+    submit_text: 'Send message'
+    show_preview: true
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+  oe_contact_forms:
+    is_corporate_form: true
+    topic_label: ''
+    email_subject: Subject
+    header: ''
+    privacy_policy: 'entity:node/1'
+    includes_fields_in_auto_reply: false
+    allow_canonical_url: false
+    expose_as_block: true
+    optional_fields:
+      oe_country_residence: oe_country_residence
+      oe_preferred_language: oe_preferred_language
+      oe_alternative_language: oe_alternative_language
+      oe_telephone: oe_telephone
+    override_languages:
+      oe_preferred_language_options: {  }
+      oe_alternative_language_options: {  }
+    topics:
+      -
+        topic_name: 'Registering process'
+        topic_email_address: registration@example.com
+      -
+        topic_name: Translations
+        topic_email_address: translations@example.com
+    alternative_name: false
+id: troubleshooting
+label: Troubleshooting
+recipients:
+  - webmaster@example.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

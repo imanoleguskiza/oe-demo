@@ -1,0 +1,18 @@
+uuid: bde9710c-707f-40c8-8d15-dc0f1c4bcade
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_op_publication_list
+id: media.webtools_op_publication_list.changed
+field_name: changed
+entity_type: media
+bundle: webtools_op_publication_list
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

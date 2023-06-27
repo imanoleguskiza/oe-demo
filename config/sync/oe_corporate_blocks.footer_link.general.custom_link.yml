@@ -1,0 +1,9 @@
+uuid: 0d699d60-f1b5-4d63-9284-7c40275ac6f6
+langcode: en
+status: true
+dependencies: {  }
+id: custom_link
+label: 'Custom link'
+url: 'http://facebook.com'
+section: custom
+weight: 0

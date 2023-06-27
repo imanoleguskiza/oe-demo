@@ -1,0 +1,39 @@
+uuid: dae53aad-a507-4da1-aac6-fd1e67635f54
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.link_list.links
+    - oe_link_lists.link_list_type.manual
+    - oe_link_lists_manual_source.link_list_link_type.external
+    - oe_link_lists_manual_source.link_list_link_type.internal
+  module:
+    - composite_reference
+    - entity_reference_revisions
+third_party_settings:
+  composite_reference:
+    composite: true
+    composite_revisions: true
+_core:
+  default_config_hash: Eb2UIhazN4qXeMawUI_wLCjvKmOuRKrx3hxbJYe8nnM
+id: link_list.manual.links
+field_name: links
+entity_type: link_list
+bundle: manual
+label: Links
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:link_list_link'
+  handler_settings:
+    target_bundles:
+      external: external
+      internal: internal
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: external
+field_type: entity_reference_revisions

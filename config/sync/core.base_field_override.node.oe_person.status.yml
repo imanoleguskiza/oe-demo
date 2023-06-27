@@ -1,0 +1,22 @@
+uuid: 228548fe-fde2-47a6-868c-7507e8d89652
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_person
+id: node.oe_person.status
+field_name: status
+entity_type: node
+bundle: oe_person
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,11 @@
+uuid: 4034689f-43b7-4b28-ac79-8aaed8bc05ca
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  oe_link_lists_manual_source:
+    override: true
+_core:
+  default_config_hash: QJ63i5XnKyA1070Jp1FseHMiLVCcqCxwoIFUlX0xCfg
+id: internal
+label: 'Internal content'

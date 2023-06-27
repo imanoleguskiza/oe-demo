@@ -1,0 +1,18 @@
+uuid: 23472b30-8d84-469e-8a64-a0547074d37c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+id: node.oe_call_tenders.moderation_state
+field_name: moderation_state
+entity_type: node
+bundle: oe_call_tenders
+label: 'Moderation state'
+description: 'The moderation state of this piece of content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

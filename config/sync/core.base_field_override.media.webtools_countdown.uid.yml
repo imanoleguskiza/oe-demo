@@ -1,0 +1,20 @@
+uuid: c426798f-be26-428b-a6d2-c412a8012a4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_countdown
+id: media.webtools_countdown.uid
+field_name: uid
+entity_type: media
+bundle: webtools_countdown
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

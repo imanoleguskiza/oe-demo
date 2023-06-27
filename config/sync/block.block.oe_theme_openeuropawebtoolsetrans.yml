@@ -1,0 +1,26 @@
+uuid: c5dfa612-524f-4cfe-bd50-c66f99127ecc
+langcode: en
+status: true
+dependencies:
+  module:
+    - oe_webtools_etrans
+  theme:
+    - oe_theme
+id: oe_theme_openeuropawebtoolsetrans
+theme: oe_theme
+region: content
+weight: -4
+provider: null
+plugin: oe_webtools_etrans
+settings:
+  id: oe_webtools_etrans
+  label: 'OpenEuropa Webtools eTrans'
+  label_display: '0'
+  provider: oe_webtools_etrans
+  delay: 0
+  domain: gen
+  exclude: ''
+  include: ''
+  render_as: link
+  render_to: ''
+visibility: {  }

@@ -23,6 +23,6 @@ settings:
 visibility:
   oe_theme_helper_current_component_library:
     id: oe_theme_helper_current_component_library
-    component_library: ec
     negate: false
     context_mapping: {  }
+    component_library: ec

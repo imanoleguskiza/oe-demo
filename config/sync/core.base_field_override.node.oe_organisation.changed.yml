@@ -1,0 +1,18 @@
+uuid: 587dcfa1-23e6-4fea-9805-35d715c80302
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_organisation
+id: node.oe_organisation.changed
+field_name: changed
+entity_type: node
+bundle: oe_organisation
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

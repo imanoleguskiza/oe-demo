@@ -1,0 +1,22 @@
+uuid: cfa35148-ae6e-4705-99e1-2d1ed64ba3cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - oe_content_entity_contact.oe_contact_type.oe_organisation_reference
+id: oe_contact.oe_organisation_reference.status
+field_name: status
+entity_type: oe_contact
+bundle: oe_organisation_reference
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: 41b715c5-358f-447a-bafb-f2f37e2e24b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_countdown
+id: media.webtools_countdown.status
+field_name: status
+entity_type: media
+bundle: webtools_countdown
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

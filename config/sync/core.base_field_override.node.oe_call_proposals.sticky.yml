@@ -1,0 +1,22 @@
+uuid: d7f0818f-5e70-4c3d-8f63-e0a4b2668370
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_proposals
+id: node.oe_call_proposals.sticky
+field_name: sticky
+entity_type: node
+bundle: oe_call_proposals
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

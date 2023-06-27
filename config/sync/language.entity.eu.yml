@@ -1,0 +1,14 @@
+uuid: ff67b2b2-a69c-4c44-9840-5c34feff58b5
+langcode: eu
+status: true
+dependencies:
+  module:
+    - oe_multilingual
+third_party_settings:
+  oe_multilingual:
+    category: non_eu
+id: eu
+label: Basque
+direction: ltr
+weight: 24
+locked: false

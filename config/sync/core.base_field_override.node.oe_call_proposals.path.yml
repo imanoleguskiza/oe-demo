@@ -1,0 +1,20 @@
+uuid: fb488f8c-fe4b-4230-b391-ecf8d1e75c8d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_proposals
+  module:
+    - path
+id: node.oe_call_proposals.path
+field_name: path
+entity_type: node
+bundle: oe_call_proposals
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

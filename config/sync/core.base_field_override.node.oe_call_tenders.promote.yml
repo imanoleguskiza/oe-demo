@@ -1,0 +1,22 @@
+uuid: 3db7fd30-3da5-43cf-97b4-77a16cd63cc0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+id: node.oe_call_tenders.promote
+field_name: promote
+entity_type: node
+bundle: oe_call_tenders
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

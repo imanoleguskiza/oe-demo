@@ -1,0 +1,10 @@
+uuid: ba68ccb3-e04b-473e-9ca9-0bffb28b62be
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MnJ_3qENm7edem9zLV1Jn_q0wiWxd-Mwtgl2vvA8peI
+id: dynamic
+label: Dynamic
+configurable_link_source_plugins: true
+default_link_source: null

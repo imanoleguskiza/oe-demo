@@ -1,0 +1,26 @@
+uuid: 4679eeac-6f4f-413c-90a3-8057435cc60b
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_translation
+    - node
+    - oe_translation
+    - system
+    - toolbar
+_core:
+  default_config_hash: 4eD8AYAAcD0YlY0jyZnY3sRhIY4E-RVdAuz_020v0qk
+id: oe_translator
+label: 'Translate content'
+weight: 2
+is_admin: null
+permissions:
+  - 'accept translation request'
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete local translation request'
+  - 'sync translation request'
+  - 'translate any entity'
+  - 'view the administration theme'

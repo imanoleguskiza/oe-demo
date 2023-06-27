@@ -1,0 +1,22 @@
+uuid: 03a3a71e-2684-4e54-b65c-30c71e4751d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_consultation
+id: node.oe_consultation.status
+field_name: status
+entity_type: node
+bundle: oe_consultation
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

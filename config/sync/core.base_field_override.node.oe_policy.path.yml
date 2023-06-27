@@ -1,0 +1,20 @@
+uuid: 4a5d8498-5539-42d9-b1dc-ee0049b7a4a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_policy
+  module:
+    - path
+id: node.oe_policy.path
+field_name: path
+entity_type: node
+bundle: oe_policy
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

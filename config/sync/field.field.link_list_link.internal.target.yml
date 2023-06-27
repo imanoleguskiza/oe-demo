@@ -1,0 +1,27 @@
+uuid: a02c6386-98a5-4df4-863a-a3bbef7588e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.link_list_link.target
+    - oe_link_lists_manual_source.link_list_link_type.internal
+_core:
+  default_config_hash: 3-V7_0bVKWsecdCRJ1sEAyHSBc_7Ji4MkmySyT6LyEI
+id: link_list_link.internal.target
+field_name: target
+entity_type: link_list_link
+bundle: internal
+label: Target
+description: 'The internal content target of the link'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

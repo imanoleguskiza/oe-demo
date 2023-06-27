@@ -1,0 +1,20 @@
+uuid: 47ba40bb-5e32-4594-9d08-a30836adfa74
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.iframe
+  module:
+    - path
+id: media.iframe.path
+field_name: path
+entity_type: media
+bundle: iframe
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

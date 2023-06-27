@@ -3,6 +3,7 @@ _core:
 module:
   address: 0
   admin_toolbar: 0
+  aggregator: 0
   allowed_formats: 0
   block: 0
   breakpoint: 0
@@ -93,8 +94,14 @@ module:
   oe_editorial_corporate_workflow: 0
   oe_editorial_entity_version: 0
   oe_editorial_unpublish: 0
+  oe_link_lists: 0
+  oe_link_lists_internal_source: 0
+  oe_link_lists_local: 0
+  oe_link_lists_manual_source: 0
+  oe_link_lists_rss_source: 0
   oe_list_page_content_type: 0
   oe_list_pages: 0
+  oe_list_pages_link_list_source: 0
   oe_media: 0
   oe_media_avportal: 0
   oe_media_embed: 0
@@ -140,8 +147,13 @@ module:
   oe_theme_helper: 0
   oe_theme_paragraphs_contact: 0
   oe_time_caching: 0
+  oe_translation: 0
+  oe_translation_local: 0
   oe_webtools: 0
+  oe_webtools_cookie_consent: 0
+  oe_webtools_etrans: 0
   oe_webtools_media: 0
+  oe_webtools_page_feedback: 0
   options: 0
   page_cache: 0
   path: 0

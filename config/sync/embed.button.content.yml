@@ -1,0 +1,22 @@
+uuid: 8738cf8a-144f-49cf-bc19-2c89115e42cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_event
+    - node.type.oe_news
+  module:
+    - node
+    - oe_oembed
+label: Content
+id: content
+type_id: oe_oembed_entities
+type_settings:
+  entity_type: node
+  bundles:
+    - oe_event
+    - oe_news
+  entity_browser: ''
+  entity_browser_settings: {  }
+icon: {  }
+icon_uuid: null

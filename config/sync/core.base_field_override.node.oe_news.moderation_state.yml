@@ -1,0 +1,18 @@
+uuid: 7a254a0c-fae5-4a03-a011-ccf8ab498381
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_news
+id: node.oe_news.moderation_state
+field_name: moderation_state
+entity_type: node
+bundle: oe_news
+label: 'Moderation state'
+description: 'The moderation state of this piece of content.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 36854bf5-10c0-4553-926d-2236b485009c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_project
+id: node.oe_project.status
+field_name: status
+entity_type: node
+bundle: oe_project
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,18 @@
+uuid: dd10a7e9-582d-47a4-ae00-2ca4639a5fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+id: node.oe_call_tenders.oe_content_short_title
+field_name: oe_content_short_title
+entity_type: node
+bundle: oe_call_tenders
+label: 'Alternative title'
+description: 'Use this field to create an alternative title for use in the URL and in list views. If the page title is longer than 60 characters, you can add a shorter title here.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -9,6 +9,8 @@ dependencies:
 third_party_settings:
   content_translation:
     enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '1'
 _core:
   default_config_hash: UrL-hgrfcUzSmSiTf_oGAB68iIjgMsAYu2FVVqMkWrc
 id: node.oe_call_tenders

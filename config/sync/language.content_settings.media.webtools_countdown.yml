@@ -1,0 +1,18 @@
+uuid: 1a648a4a-f2eb-4609-bd52-4b43addfa26b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_countdown
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: media.webtools_countdown
+target_entity_type_id: media
+target_bundle: webtools_countdown
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,18 @@
+uuid: a2734027-d19c-455d-87c4-7dbf67512783
+langcode: en
+status: true
+dependencies:
+  config:
+    - emr.entity_meta_type.oe_list_page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: entity_meta.oe_list_page
+target_entity_type_id: entity_meta
+target_bundle: oe_list_page
+default_langcode: site_default
+language_alterable: false

@@ -6,7 +6,14 @@ dependencies:
     - field.storage.paragraph.field_oe_image
     - paragraphs.paragraphs_type.oe_list_item
   module:
+    - content_translation
     - image
+third_party_settings:
+  content_translation:
+    translation_sync:
+      alt: alt
+      title: title
+      file: '0'
 _core:
   default_config_hash: mC3wu5D5FrtYykuq8jckMohhDqT-5ckWS-Fs8MaBWzk
 id: paragraph.oe_list_item.field_oe_image
@@ -20,6 +27,8 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
+  handler: 'default:file'
+  handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
   max_filesize: ''
@@ -35,6 +44,4 @@ settings:
     title: ''
     width: null
     height: null
-  handler: 'default:file'
-  handler_settings: {  }
 field_type: image

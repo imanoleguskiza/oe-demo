@@ -1,0 +1,18 @@
+uuid: 32052350-3ef7-4814-abbd-d5e7f7442703
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.av_portal_video
+id: media.av_portal_video.changed
+field_name: changed
+entity_type: media
+bundle: av_portal_video
+label: Changed
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

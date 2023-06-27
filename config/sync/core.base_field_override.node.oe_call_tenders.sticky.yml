@@ -1,0 +1,22 @@
+uuid: 60d617a1-d427-42ff-9c01-c138fd07d9a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+id: node.oe_call_tenders.sticky
+field_name: sticky
+entity_type: node
+bundle: oe_call_tenders
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

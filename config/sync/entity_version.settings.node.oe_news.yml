@@ -1,0 +1,11 @@
+uuid: da4f0dab-6e90-4083-85f7-6fa2b0c2f615
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.oe_news.field_version
+    - node.type.oe_news
+id: node.oe_news
+target_entity_type_id: node
+target_bundle: oe_news
+target_field: field_version

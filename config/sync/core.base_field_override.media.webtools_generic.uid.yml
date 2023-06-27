@@ -1,0 +1,20 @@
+uuid: c732b6d1-b5d3-48d1-acfd-a7b06c21f99b
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.webtools_generic
+id: media.webtools_generic.uid
+field_name: uid
+entity_type: media
+bundle: webtools_generic
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

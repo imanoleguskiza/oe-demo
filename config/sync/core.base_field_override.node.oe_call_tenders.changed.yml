@@ -1,0 +1,18 @@
+uuid: 8dcba2a0-83d9-4846-a046-55494346ddc9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oe_call_tenders
+id: node.oe_call_tenders.changed
+field_name: changed
+entity_type: node
+bundle: oe_call_tenders
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
