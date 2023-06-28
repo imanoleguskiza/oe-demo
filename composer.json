@@ -11,6 +11,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/address": "^1.12",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/aggregator": "^2.0",
         "drupal/ckeditor": "^1.0",
         "drupal/composite_reference": "^2.2",
         "drupal/core": "^10",
@@ -26,12 +27,14 @@
         "openeuropa/oe_content": "^3.0@alpha",
         "openeuropa/oe_corporate_blocks": "^4.14",
         "openeuropa/oe_editorial": "^2.0",
+        "openeuropa/oe_link_lists": "^0.22.0",
         "openeuropa/oe_list_pages": "^1.0",
         "openeuropa/oe_media": "^1.23",
         "openeuropa/oe_multilingual": "^1.14",
         "openeuropa/oe_oembed": "^0.7.0",
         "openeuropa/oe_paragraphs": "^1.19",
         "openeuropa/oe_theme": "^3.4.0",
+        "openeuropa/oe_translation": "^2.2",
         "openeuropa/oe_webtools": "^1.23"
     },
     "require-dev": {
